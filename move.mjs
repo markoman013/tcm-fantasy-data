@@ -99,8 +99,8 @@ try {
     if (!tipB) await finish(`STOPPED: ${pb.name}'s team has no game in scoring period ${s0.period}, swapping him in would not help`);
     if (Date.now() > Math.min(tipA, tipB) - 120000) await finish("STOPPED: a tip-off is too close or has passed, no changes made");
     say(`${pa.name} tips ${new Date(tipA).toISOString()}, ${pb.name} tips ${new Date(tipB).toISOString()}`);
-    if (DRY) await finish(`TEST RUN: would watch ${pa.name} until 4 minutes before tip-off. Swaps with ${pb.name} only if OUT on two checks in a row (the final check is confirmed twice), only because both have a game today, and swaps back if he stops being OUT. Right now ${pa.name} is ${pa.inj}`);
-    const deadline = Math.min(tipA, tipB) - 4 * 60000;
+    if (DRY) await finish(`TEST RUN: would watch ${pa.name} until about 2 minutes before tip-off (every 5 min, every minute in the last 15). Swaps with ${pb.name} only if OUT on two checks in a row (the final check is confirmed twice), only because both have a game today, and swaps back if he stops being OUT. Right now ${pa.name} is ${pa.inj}`);
+    const deadline = Math.min(tipA, tipB) - 2 * 60000; // final check about 2.5 minutes before the earliest tip-off
     if (deadline - Date.now() > 330 * 60000) await finish("STOPPED: tip-off is more than 5.5 hours away, start this closer to the game");
     let swapped = false, outStreak = 0, cur = { a: pa, b: pb };
     while (true) {
@@ -129,7 +129,8 @@ try {
         swapped = false;
       }
       if (finalCheck) await finish(swapped ? `DONE: ${pa.name} is OUT, ${pb.name} is starting in his slot` : `DONE: ${pa.name} is not OUT, lineup unchanged`);
-      await sleep(Math.min(300000, Math.max(5000, deadline - 20000 - Date.now())));
+      const left = deadline - Date.now();
+      await sleep(Math.min(left > 15 * 60000 ? 300000 : 60000, Math.max(5000, left - 20000))); // every 5 min, every 1 min in the last 15 min
     }
   }
 
