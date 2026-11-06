@@ -25,7 +25,7 @@ for (const m of html.matchAll(/<select[^>]*name="([^"]*)"[\s\S]*?<\/select>/g)) 
 }
 if (!form.__VIEWSTATE) { problems.push("no form found (login/bot page?)"); fs.writeFileSync("data/hashtag_debug.html", html.slice(0, 20000)); done(false); }
 const P = "ctl00$ContentPlaceHolder1$";
-const scoring = { TextBox1: 1, TextBox4: 1, TextBox2: 0, TextBox3: 0, TextBox5: 2, TextBox6: 4, TextBox7: 4, TextBox14: -2, TextBox8: 1, TextBox9: 0, TextBox18: 0, TextBox10: 2, TextBox11: -1, TextBox19: 0, TextBox12: 1, TextBox13: -1, TextBox20: 0, TextBox15: 0, TextBox16: 0, TextBox17: 0, DDSHOW: "600", DDPEN: "0.00", DDBY: "0", DDDURATION: "0", DDGAMES: "1", DDPOS: "All", DDTSUM: "All" };
+const scoring = { TextBox1: 1, TextBox4: 1, TextBox2: 0, TextBox3: 0, TextBox5: 2, TextBox6: 4, TextBox7: 4, TextBox14: -2, TextBox8: 1, TextBox9: 0, TextBox18: 0, TextBox10: 2, TextBox11: -1, TextBox19: 0, TextBox12: 1, TextBox13: -1, TextBox20: 0, TextBox15: 0, TextBox16: 0, TextBox17: 0, DDSHOW: "600", DDPEN: "0.00", DDBY: "0", DDDURATION: "0" };
 for (const k in scoring) form[P + k] = String(scoring[k]);
 form[P + "Button1"] = "UPDATE";
 const post = await fetch(URL, { method: "POST", headers: { ...hdr, "Content-Type": "application/x-www-form-urlencoded", Referer: URL }, body: new URLSearchParams(form) });
