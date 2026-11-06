@@ -20,6 +20,11 @@ jobs:
           ESPN_S2: ${{ secrets.ESPN_S2 }}
           SWID: ${{ secrets.SWID }}
         run: node fetch-espn.mjs
+      - name: Hashtag Premium projections (your scoring)
+        continue-on-error: true
+        env:
+          HASHTAG_COOKIE: ${{ secrets.HASHTAG_COOKIE }}
+        run: node fetch-hashtag.mjs
       - name: Hashtag fantasy points
         run: node hashtag-points.mjs
       - name: Save data
