@@ -1,17 +1,15 @@
 {
- "result": "DRY RUN: would add Wendell Carter Jr. and drop Toumani Camara",
+ "result": "TEST RUN: would add Wendell Carter Jr. and drop Toumani Camara",
  "dryRun": true,
  "inputs": {
   "mode": "add_drop",
   "add": "Wendell Carter",
   "drop": "Toumani Camara",
-  "afterTipTeam": "",
-  "ifOut": "Scottie Barnes",
-  "a": "Anthony Black",
-  "b": "Ivica Zubac"
+  "afterTipTeam": "None - do it right away",
+  "ifOut": "Scottie Barnes"
  },
  "log": [
-  "2026-11-06T22:31:14.525Z Scottie Barnes status DAY_TO_DAY, IR slots used 1/2",
-  "2026-11-06T22:31:14.525Z Case B/C: not moving anyone to IR"
+  "2026-11-06T23:01:38.206Z Scottie Barnes status DAY_TO_DAY, IR slots used 1/2",
+  "2026-11-06T23:01:38.206Z Case B/C: not moving anyone to IR"
  ]
 }
