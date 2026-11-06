@@ -1,28 +1,28 @@
-name: Swap players
+name: Swap roster players
 run-name: "Swap players: ${{ inputs.starter }} / ${{ inputs.replacement }}"
 on:
   workflow_dispatch:
     inputs:
       test_run:
-        description: "Test run? Yes = only show what it would do, nothing changes. No = really do it"
+        description: "Test run?"
         required: true
-        default: "Yes"
+        default: "No (really do it)"
         type: choice
-        options: ["Yes", "No"]
+        options: ["Yes (test, nothing changes)", "No (really do it)"]
       starter:
-        description: "Player 1: the starter (full name, for example Scottie Barnes)"
+        description: "Player 1: the starter (full name)"
         required: true
       replacement:
         description: "Player 2: the bench player who takes his slot (full name)"
         required: true
       only_if_out:
-        description: "Only swap if Player 1 is really OUT? Yes = watch until just before tip-off, swap only if OUT, swap back if he is not. No = swap right now"
+        description: "Only swap if Player 1 is really OUT?"
         required: true
-        default: "No"
+        default: "Yes (watch until tip-off, swap only if OUT, swap back if not)"
         type: choice
-        options: ["No", "Yes"]
+        options: ["Yes (watch until tip-off, swap only if OUT, swap back if not)", "No (swap right now)"]
       swap_back:
-        description: "Swap back right away? (Yes only for testing a plain swap, ignored when the answer above is Yes)"
+        description: "Swap back right away? (for testing only, ignored when the answer above is Yes)"
         required: true
         default: "No"
         type: choice
