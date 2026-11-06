@@ -9,7 +9,8 @@ const swid = process.env.SWID;
 const headers = { Cookie: `espn_s2=${process.env.ESPN_S2}; SWID=${swid}`, "User-Agent": "Mozilla/5.0", Accept: "application/json",
   Origin: "https://fantasy.espn.com", Referer: `https://fantasy.espn.com/basketball/team?leagueId=${LEAGUE}&teamId=${TEAM}` };
 const E = process.env;
-const DRY = (E.TEST_RUN || "Yes") !== "No";
+const startsWith = (v, w) => String(v || "").trim().toLowerCase().startsWith(w);
+const DRY = !startsWith(E.TEST_RUN, "no"); // only an answer starting with "No" really does it; anything unclear stays a test
 const log = [];
 const say = (m) => { console.log(m); log.push(`${new Date().toISOString()} ${m}`); };
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -69,11 +70,11 @@ try {
     };
     say(`Before: ${pa.name} slot ${pa.slot} (${pa.inj}), ${pb.name} slot ${pb.slot} (${pb.inj}), period ${s0.period}`);
 
-    if ((E.ONLY_IF_OUT || "No") !== "Yes") {
+    if (!startsWith(E.ONLY_IF_OUT, "yes")) {
       // plain swap, optionally swap back right away (for testing)
-      if (DRY) await finish(`TEST RUN: would swap ${pa.name} (slot ${pa.slot}) and ${pb.name} (slot ${pb.slot})${E.SWAP_BACK === "Yes" ? " and swap back" : ""}`);
+      if (DRY) await finish(`TEST RUN: would swap ${pa.name} (slot ${pa.slot}) and ${pb.name} (slot ${pb.slot})${startsWith(E.SWAP_BACK, "yes") ? " and swap back" : ""}`);
       if (!(await doSwap(pa, pb, s0.period))) await finish("FAILED: swap did not happen, check ESPN");
-      if (E.SWAP_BACK === "Yes") {
+      if (startsWith(E.SWAP_BACK, "yes")) {
         const c = await readTeam();
         const x = c.roster.find((p) => p.id === pa.id), y = c.roster.find((p) => p.id === pb.id);
         const back = await doSwap(x, y, c.period);
