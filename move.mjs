@@ -70,6 +70,15 @@ try {
     };
     say(`Before: ${pa.name} slot ${pa.slot} (${pa.inj}), ${pb.name} slot ${pb.slot} (${pb.inj}), period ${s0.period}`);
 
+    const sch = await get(`${BASE}?view=proTeamSchedules_wl`);
+    const tipOf = (proTeamId) => { const t = sch.settings.proTeams.find((x) => x.id === proTeamId); const g = (t && t.proGamesByScoringPeriod[String(s0.period)]) || []; return g.length ? new Date(g[0].date).getTime() : null; };
+    const tipA = tipOf(pa.proTeam), tipB = tipOf(pb.proTeam);
+    say(`Games today (scoring period ${s0.period}): ${pa.name} ${tipA ? new Date(tipA).toISOString() : "no game"}, ${pb.name} ${tipB ? new Date(tipB).toISOString() : "no game"}`);
+    // safety rule for every swap: never bench a player who has a game for one who does not, never touch a player whose game already started
+    if (tipA && tipA <= Date.now() + 60000) await finish(`STOPPED: ${pa.name}'s game has started or is about to, he is locked. No changes made`);
+    if (tipB && tipB <= Date.now() + 60000) await finish(`STOPPED: ${pb.name}'s game has started or is about to, he is locked. No changes made`);
+    if (tipA && !tipB) await finish(`STOPPED: ${pa.name} has a game today and ${pb.name} does not. Swapping would lose a game. No changes made`);
+
     if (!startsWith(E.ONLY_IF_OUT, "yes")) {
       // plain swap, optionally swap back right away (for testing)
       if (DRY) await finish(`TEST RUN: would swap ${pa.name} (slot ${pa.slot}) and ${pb.name} (slot ${pb.slot})${startsWith(E.SWAP_BACK, "yes") ? " and swap back" : ""}`);
@@ -85,15 +94,12 @@ try {
       await finish(`OK: swapped ${pa.name} and ${pb.name}`);
     }
 
-    // conditional swap: starter must be really OUT; checked again right before tip-off, swaps back if not
-    const sch = await get(`${BASE}?view=proTeamSchedules_wl`);
-    const tipOf = (proTeamId) => { const t = sch.settings.proTeams.find((x) => x.id === proTeamId); const g = (t && t.proGamesByScoringPeriod[String(s0.period)]) || []; return g.length ? new Date(g[0].date).getTime() : null; };
-    const tipA = tipOf(pa.proTeam), tipB = tipOf(pb.proTeam);
+    // conditional swap: starter must be really OUT on at least two checks; checked again right before tip-off, swaps back if not
     if (!tipA) await finish(`STOPPED: ${pa.name}'s team has no game in scoring period ${s0.period}`);
     if (!tipB) await finish(`STOPPED: ${pb.name}'s team has no game in scoring period ${s0.period}, swapping him in would not help`);
     if (Date.now() > Math.min(tipA, tipB) - 120000) await finish("STOPPED: a tip-off is too close or has passed, no changes made");
     say(`${pa.name} tips ${new Date(tipA).toISOString()}, ${pb.name} tips ${new Date(tipB).toISOString()}`);
-    if (DRY) await finish(`TEST RUN: would watch ${pa.name} until 4 minutes before tip-off. Swaps with ${pb.name} only if OUT on two checks 5 minutes apart (or OUT at the final check), swaps back if he stops being OUT. Right now ${pa.name} is ${pa.inj}`);
+    if (DRY) await finish(`TEST RUN: would watch ${pa.name} until 4 minutes before tip-off. Swaps with ${pb.name} only if OUT on two checks in a row (the final check is confirmed twice), only because both have a game today, and swaps back if he stops being OUT. Right now ${pa.name} is ${pa.inj}`);
     const deadline = Math.min(tipA, tipB) - 4 * 60000;
     if (deadline - Date.now() > 330 * 60000) await finish("STOPPED: tip-off is more than 5.5 hours away, start this closer to the game");
     let swapped = false, outStreak = 0, cur = { a: pa, b: pb };
@@ -105,8 +111,17 @@ try {
       outStreak = isOut ? outStreak + 1 : 0;
       const finalCheck = Date.now() >= deadline - 30000;
       say(`${x.name} is ${x.inj} (out streak ${outStreak})${finalCheck ? " [final check]" : ""}`);
-      if (!swapped && isOut && (outStreak >= 2 || finalCheck)) {
-        swapped = await doSwap(x, y, c.period);
+      let go = !swapped && isOut && outStreak >= 2, xx = x, yy = y, cp = c.period;
+      if (!swapped && isOut && finalCheck && outStreak < 2) { // only one OUT reading so far: confirm once more before acting
+        say("Only one OUT reading, confirming in 45 seconds");
+        await sleep(45000);
+        const c2 = await readTeam();
+        xx = c2.roster.find((p) => p.id === pa.id); yy = c2.roster.find((p) => p.id === pb.id); cp = c2.period;
+        go = !!(xx && yy && xx.inj === "OUT");
+        say(`${pa.name} is now ${xx ? xx.inj : "missing"}, ${go ? "confirmed OUT" : "not confirmed, no swap"}`);
+      }
+      if (go) {
+        swapped = await doSwap(xx, yy, cp);
         if (!swapped) await finish("FAILED: tried to swap, it did not work, check ESPN");
       } else if (swapped && !isOut) {
         const back = await doSwap(y, x, c.period); // after our swap, y holds the starter slot
