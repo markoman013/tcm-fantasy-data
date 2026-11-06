@@ -1,14 +1,18 @@
 {
- "result": "STOPPED: Ivica Zubac's team has no game in scoring period 18, swapping him in would not help",
- "dryRun": true,
+ "result": "OK: swapped and swapped back, lineup restored",
+ "dryRun": false,
  "inputs": {
   "mode": "swap",
-  "starter": "Scottie Barnes",
+  "starter": "Anthony Black",
   "replacement": "Ivica Zubac",
-  "onlyIfOut": "Yes (watch until tip-off, swap only if OUT, swap back if not)",
-  "swapBack": "No"
+  "onlyIfOut": "No (swap right now)",
+  "swapBack": "Yes"
  },
  "log": [
-  "2026-11-06T23:02:09.790Z Before: Scottie Barnes slot 2 (DAY_TO_DAY), Ivica Zubac slot 12 (ACTIVE), period 18"
+  "2026-11-06T23:03:13.650Z Before: Anthony Black slot 11 (ACTIVE), Ivica Zubac slot 12 (ACTIVE), period 18",
+  "2026-11-06T23:03:13.796Z swap Anthony Black <-> Ivica Zubac -> 200 ",
+  "2026-11-06T23:03:16.447Z verified: true",
+  "2026-11-06T23:03:16.719Z swap Anthony Black <-> Ivica Zubac -> 200 ",
+  "2026-11-06T23:03:19.373Z verified: true"
  ]
 }
