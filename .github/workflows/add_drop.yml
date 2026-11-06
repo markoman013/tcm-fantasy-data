@@ -16,8 +16,42 @@ on:
         description: "Player to drop (full name). Leave empty to add without dropping"
         required: false
       after_tip_team:
-        description: "Wait until this NBA team's game tips off first (team code, for example POR). Leave empty to do it right away"
-        required: false
+        description: "Wait until this team's game tips off first? Pick the team, or None to do it right away"
+        required: true
+        default: "None - do it right away"
+        type: choice
+        options:
+          - "None - do it right away"
+          - "Atlanta Hawks"
+          - "Boston Celtics"
+          - "Brooklyn Nets"
+          - "Charlotte Hornets"
+          - "Chicago Bulls"
+          - "Cleveland Cavaliers"
+          - "Dallas Mavericks"
+          - "Denver Nuggets"
+          - "Detroit Pistons"
+          - "Golden State Warriors"
+          - "Houston Rockets"
+          - "Indiana Pacers"
+          - "Los Angeles Clippers"
+          - "Los Angeles Lakers"
+          - "Memphis Grizzlies"
+          - "Miami Heat"
+          - "Milwaukee Bucks"
+          - "Minnesota Timberwolves"
+          - "New Orleans Pelicans"
+          - "New York Knicks"
+          - "Oklahoma City Thunder"
+          - "Orlando Magic"
+          - "Philadelphia 76ers"
+          - "Phoenix Suns"
+          - "Portland Trail Blazers"
+          - "Sacramento Kings"
+          - "San Antonio Spurs"
+          - "Toronto Raptors"
+          - "Utah Jazz"
+          - "Washington Wizards"
       if_out:
         description: "Optional: if this player is OUT, move him to an open IR slot instead of dropping anyone (full name)"
         required: false

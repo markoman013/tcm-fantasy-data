@@ -120,9 +120,10 @@ try {
   // ---------- add / drop with optional wait for tip-off and optional IR rule ----------
   if (E.MODE === "add_drop") {
     let s = await readTeam();
-    if (E.AFTER_TIP_TEAM) {
+    if (E.AFTER_TIP_TEAM && !E.AFTER_TIP_TEAM.toLowerCase().startsWith("none")) {
       const sch = await get(`${BASE}?view=proTeamSchedules_wl`);
-      const team = sch.settings.proTeams.find((t) => t.abbrev.toLowerCase() === E.AFTER_TIP_TEAM.toLowerCase());
+      const want = E.AFTER_TIP_TEAM.toLowerCase();
+      const team = sch.settings.proTeams.find((t) => t.id > 0 && want.includes(String(t.name).toLowerCase())) || sch.settings.proTeams.find((t) => t.abbrev.toLowerCase() === want);
       if (!team) await finish(`STOPPED: team "${E.AFTER_TIP_TEAM}" not found`);
       const games = team.proGamesByScoringPeriod[String(s.period)] || [];
       if (!games.length) await finish(`STOPPED: ${team.abbrev} has no game in scoring period ${s.period}`);
