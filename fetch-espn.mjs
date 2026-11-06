@@ -1,38 +1,65 @@
-// Pulls TCM league data from ESPN and saves JSON files in ./data
-import { mkdirSync, writeFileSync } from "node:fs";
+// Pulls everything the TCM Hub updates need and saves it as JSON in ./data
+import { mkdirSync, writeFileSync, existsSync } from "node:fs";
 
 const LEAGUE = "1838678745";
 const BASE = "https://lm-api-reads.fantasy.espn.com/apis/v3/games/fba/seasons/2027";
-const cookie = `espn_s2=${process.env.ESPN_S2}; SWID=${process.env.SWID}`;
-const headers = { Cookie: cookie, "User-Agent": "Mozilla/5.0", Accept: "application/json" };
+const L = `${BASE}/segments/0/leagues/${LEAGUE}`;
+const headers = {
+  Cookie: `espn_s2=${process.env.ESPN_S2}; SWID=${process.env.SWID}`,
+  "User-Agent": "Mozilla/5.0",
+  Accept: "application/json",
+};
 
 async function get(url, extra = {}) {
   const res = await fetch(url, { headers: { ...headers, ...extra } });
   if (!res.ok) throw new Error(`${res.status} for ${url}`);
   return res.json();
 }
-
-mkdirSync("data", { recursive: true });
+mkdirSync("data/boxscores", { recursive: true });
 const save = (name, obj) => writeFileSync(`data/${name}.json`, JSON.stringify(obj));
-const L = `${BASE}/segments/0/leagues/${LEAGUE}`;
+const problems = [];
+async function safe(label, fn) {
+  try { await fn(); } catch (e) { problems.push(`${label}: ${e.message}`); console.log("PROBLEM", label, e.message); }
+}
 
-const league = await get(`${L}?view=mTeam&view=mRoster&view=mMatchupScore&view=mSettings&view=mStandings`);
-save("league", league);
-
+// 1. League: all 10 rosters with player stats (season, last 7/15/30, ESPN projections), teams, standings,
+//    matchup schedule and scores, league settings, add counts and limits.
+let league;
+await safe("league", async () => {
+  league = await get(`${L}?view=mTeam&view=mRoster&view=kona_playercard&view=mMatchupScore&view=mSettings&view=mStandings&view=mPendingTransactions`);
+  save("league", league);
+});
+if (!league) { console.error("League fetch failed, stopping."); process.exit(1); }
 const period = league.scoringPeriodId;
-save("boxscore", await get(`${L}?view=mBoxscore&view=mMatchupScore&scoringPeriodId=${period}`));
-save("schedules", await get(`${BASE}?view=proTeamSchedules_wl`));
 
-const filter = {
-  players: {
-    filterStatus: { value: ["FREEAGENT", "WAIVERS"] },
-    limit: 300,
-    sortPercOwned: { sortPriority: 1, sortAsc: false },
-  },
-};
-save("freeagents", await get(`${L}?view=kona_player_info&scoringPeriodId=${period}`, {
-  "x-fantasy-filter": JSON.stringify(filter),
-}));
+// 2. Day by day box scores: one file per scoring period (period 1 = Oct 20, 2026).
+//    Past days never change, so they are only fetched once. The last two days are always refreshed.
+for (let p = 1; p <= period; p++) {
+  const file = `data/boxscores/${p}.json`;
+  if (existsSync(file) && p < period - 1) continue;
+  await safe(`boxscore ${p}`, async () => {
+    save(`boxscores/${p}`, await get(`${L}?view=mBoxscore&view=mMatchupScore&scoringPeriodId=${p}`));
+  });
+}
 
-save("meta", { fetchedAt: new Date().toISOString(), scoringPeriodId: period });
-console.log("saved, scoring period", period);
+// 3. NBA schedule for every team, all season
+await safe("schedules", async () => save("schedules", await get(`${BASE}?view=proTeamSchedules_wl`)));
+
+// 4. Free agents and players on waivers (with stats and projections), top 500 by ownership
+await safe("freeagents", async () => {
+  const filter = { players: { filterStatus: { value: ["FREEAGENT", "WAIVERS"] }, limit: 500, sortPercOwned: { sortPriority: 1, sortAsc: false } } };
+  save("freeagents", await get(`${L}?view=kona_player_info&scoringPeriodId=${period}`, { "x-fantasy-filter": JSON.stringify(filter) }));
+});
+
+// 5. Recent transactions (adds, drops, trades) in the league
+await safe("transactions", async () => save("transactions", await get(`${L}?view=mTransactions2`)));
+
+// 6. Hashtag Basketball public pages (best effort, may be blocked)
+await safe("hashtag defense vs position", async () => {
+  const res = await fetch("https://hashtagbasketball.com/nba-defense-vs-position", { headers: { "User-Agent": "Mozilla/5.0" } });
+  if (!res.ok) throw new Error(String(res.status));
+  writeFileSync("data/hashtag_defense_vs_position.html", await res.text());
+});
+
+save("meta", { fetchedAt: new Date().toISOString(), scoringPeriodId: period, problems });
+console.log("saved, scoring period", period, "problems:", problems.length);
