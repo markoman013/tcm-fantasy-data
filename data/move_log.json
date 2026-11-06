@@ -1,19 +1,17 @@
 {
- "result": "OK: swap and swap back both worked, lineup restored",
- "dryRun": false,
+ "result": "DRY RUN: would add Wendell Carter Jr. and drop Toumani Camara",
+ "dryRun": true,
  "inputs": {
-  "mode": "swap_test",
-  "add": "",
-  "drop": "",
+  "mode": "add_drop",
+  "add": "Wendell Carter",
+  "drop": "Toumani Camara",
   "afterTipTeam": "",
-  "ifOut": "",
+  "ifOut": "Scottie Barnes",
   "a": "Anthony Black",
   "b": "Ivica Zubac"
  },
  "log": [
-  "2026-11-06T22:28:02.682Z Before: Anthony Black slot 11, Ivica Zubac slot 12, period 18",
-  "2026-11-06T22:28:02.892Z swap -> 200 {\"bidAmount\":0,\"executionType\":\"EXECUTE\",\"id\":\"d49988f3-2ee8-485b-9d28-38a107a392f1\",\"isActingAsTeamOwner\":false,\"isLeag",
-  "2026-11-06T22:28:05.540Z after swap verified: true",
-  "2026-11-06T22:28:05.633Z swap back -> 200"
+  "2026-11-06T22:31:14.525Z Scottie Barnes status DAY_TO_DAY, IR slots used 1/2",
+  "2026-11-06T22:31:14.525Z Case B/C: not moving anyone to IR"
  ]
 }
