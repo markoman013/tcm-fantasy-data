@@ -147,9 +147,37 @@ try {
       const tip = new Date(games[0].date).getTime();
       say(`${team.abbrev} tip-off ${new Date(tip).toISOString()}`);
       if (tip - Date.now() > 330 * 60000) await finish("STOPPED: tip-off is more than 5.5 hours away, start this closer to the game");
-      while (Date.now() < tip + 90000) await sleep(15000);
-      say("tip-off passed, waited 90 s");
-      s = await readTeam();
+      // Early watch: if the IF_OUT player gets ruled OUT before HIS game locks, act right then (move to IR + add, no drop)
+      let acted = false;
+      if (E.IF_OUT && !DRY) {
+        const o0 = findOnRoster(s.roster, E.IF_OUT);
+        const ot = o0.length === 1 ? sch.settings.proTeams.find((t) => t.id === o0[0].proTeam) : null;
+        const og = ot ? (ot.proGamesByScoringPeriod[String(s.period)] || []) : [];
+        if (og.length) {
+          const lockAt = new Date(og[0].date).getTime() - 2 * 60000;
+          say(`Early watch: ${o0[0].name} (${ot.abbrev}) locks at ${new Date(lockAt + 120000).toISOString()}; checking until then`);
+          while (Date.now() < lockAt && Date.now() < tip) {
+            const c = await readTeam();
+            const pl = findOnRoster(c.roster, E.IF_OUT)[0];
+            const irUsed = c.roster.filter((p) => p.slot === 13).length;
+            say(`early check: ${pl ? pl.name + " " + pl.inj + " slot " + pl.slot : "missing"}, IR ${irUsed}/${c.irSlots}`);
+            if (pl && pl.inj === "OUT" && pl.slot !== 13 && irUsed < c.irSlots) {
+              await sleep(45000); // confirm: ESPN sometimes shows OUT briefly by mistake
+              const c2 = await readTeam();
+              const p2 = findOnRoster(c2.roster, E.IF_OUT)[0];
+              if (p2 && p2.inj === "OUT" && p2.slot !== 13) { s = c2; acted = true; say("still OUT after 45 s: acting now"); break; }
+              say("not OUT anymore, keep watching");
+            }
+            const left = lockAt - Date.now();
+            await sleep(Math.min(left > 15 * 60000 ? 300000 : 60000, Math.max(5000, left)));
+          }
+        } else say("early watch skipped: that player has no game in this scoring period");
+      }
+      if (!acted) {
+        while (Date.now() < tip + 90000) await sleep(15000);
+        say("tip-off passed, waited 90 s");
+        s = await readTeam();
+      }
     }
     const drops = E.DROP ? findOnRoster(s.roster, E.DROP) : [];
     if (E.DROP && drops.length !== 1) await finish(`STOPPED: expected exactly one roster match for drop "${E.DROP}", found ${drops.length}`);
