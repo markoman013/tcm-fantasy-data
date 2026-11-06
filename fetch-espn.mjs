@@ -54,12 +54,20 @@ await safe("freeagents", async () => {
 // 5. Recent transactions (adds, drops, trades) in the league
 await safe("transactions", async () => save("transactions", await get(`${L}?view=mTransactions2`)));
 
-// 6. Hashtag Basketball public pages (best effort, may be blocked)
-await safe("hashtag defense vs position", async () => {
-  const res = await fetch("https://hashtagbasketball.com/nba-defense-vs-position", { headers: { "User-Agent": "Mozilla/5.0" } });
-  if (!res.ok) throw new Error(String(res.status));
-  writeFileSync("data/hashtag_defense_vs_position.html", await res.text());
-});
+// 6. Hashtag Basketball public pages (best effort, may be blocked or partly hidden behind login)
+const hb = { "hashtag_defense_vs_position": "https://hashtagbasketball.com/nba-defense-vs-position",
+  "hashtag_projections": "https://hashtagbasketball.com/fantasy-basketball-projections",
+  "hashtag_rankings": "https://hashtagbasketball.com/fantasy-basketball-rankings" };
+const probe = {};
+for (const [name, url] of Object.entries(hb)) {
+  await safe(`hashtag ${name}`, async () => {
+    const res = await fetch(url, { headers: { "User-Agent": "Mozilla/5.0", Accept: "text/html" } });
+    const text = await res.text();
+    probe[name] = { status: res.status, bytes: text.length, rows: (text.match(/<tr/g) || []).length, mentionsPremium: /premium|subscribe|log in|login/i.test(text) };
+    if (res.ok) writeFileSync(`data/${name}.html`, text); else throw new Error(String(res.status));
+  });
+}
+save("hashtag_probe", probe);
 
 save("meta", { fetchedAt: new Date().toISOString(), scoringPeriodId: period, problems });
 console.log("saved, scoring period", period, "problems:", problems.length);
