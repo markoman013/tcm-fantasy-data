@@ -17,7 +17,7 @@ jobs:
         env:
           ESPN_S2: ${{ secrets.ESPN_S2 }}
           SWID: ${{ secrets.SWID }}
-        run: node fetch_espn.mjs
+        run: node fetch-espn.mjs
       - name: Save data
         run: |
           git config user.name "espn-bot"
