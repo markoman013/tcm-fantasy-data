@@ -1,15 +1,14 @@
 {
- "result": "TEST RUN: would add Wendell Carter Jr. and drop Toumani Camara",
+ "result": "STOPPED: Ivica Zubac's team has no game in scoring period 18, swapping him in would not help",
  "dryRun": true,
  "inputs": {
-  "mode": "add_drop",
-  "add": "Wendell Carter",
-  "drop": "Toumani Camara",
-  "afterTipTeam": "None - do it right away",
-  "ifOut": "Scottie Barnes"
+  "mode": "swap",
+  "starter": "Scottie Barnes",
+  "replacement": "Ivica Zubac",
+  "onlyIfOut": "Yes (watch until tip-off, swap only if OUT, swap back if not)",
+  "swapBack": "No"
  },
  "log": [
-  "2026-11-06T23:01:38.206Z Scottie Barnes status DAY_TO_DAY, IR slots used 1/2",
-  "2026-11-06T23:01:38.206Z Case B/C: not moving anyone to IR"
+  "2026-11-06T23:02:09.790Z Before: Scottie Barnes slot 2 (DAY_TO_DAY), Ivica Zubac slot 12 (ACTIVE), period 18"
  ]
 }
