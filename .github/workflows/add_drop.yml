@@ -1,22 +1,22 @@
-name: Add or drop a player
+name: Add/drop players
 run-name: "Add ${{ inputs.add }} / drop ${{ inputs.drop }}"
 on:
   workflow_dispatch:
     inputs:
       test_run:
-        description: "Test run? Yes = only show what it would do, nothing changes. No = really do it"
+        description: "Test run?"
         required: true
-        default: "Yes"
+        default: "No (really do it)"
         type: choice
-        options: ["Yes", "No"]
+        options: ["Yes (test, nothing changes)", "No (really do it)"]
       add:
-        description: "Player to add (full name, for example Wendell Carter)"
+        description: "Player to add (full name)"
         required: true
       drop:
         description: "Player to drop (full name). Leave empty to add without dropping"
         required: false
       after_tip_team:
-        description: "Wait until this team's game tips off first? Pick the team, or None to do it right away"
+        description: "Wait until this team's game tips off first?"
         required: true
         default: "None - do it right away"
         type: choice
