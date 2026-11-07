@@ -54,7 +54,7 @@ jobs:
         run: |
           git config user.name "espn-bot"
           git config user.email "espn-bot@users.noreply.github.com"
-          git pull --rebase || true
           git add data/move_log.json
           git commit -m "Swap log $(date -u +%Y-%m-%dT%H:%MZ)" || echo "no changes"
+          git pull --rebase
           git push
