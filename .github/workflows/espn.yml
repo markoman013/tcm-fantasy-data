@@ -8,26 +8,33 @@ permissions:
 jobs:
   fetch:
     runs-on: ubuntu-latest
-    # season guard: scheduled runs stop after Mar 28 2027
-    if: github.event_name != 'schedule' || github.run_started_at < '2027-03-29'
     steps:
+      - name: Season guard (scheduled runs stop after Mar 28 2027)
+        run: |
+          if [ "$GITHUB_EVENT_NAME" = "schedule" ] && [ "$(date -u +%Y%m%d)" -gt 20270328 ]; then echo "STOP=1" >> $GITHUB_ENV; fi
       - uses: actions/checkout@v4
+        if: env.STOP != '1'
       - uses: actions/setup-node@v4
+        if: env.STOP != '1'
         with:
           node-version: 20
       - name: Fetch from ESPN
+        if: env.STOP != '1'
         env:
           ESPN_S2: ${{ secrets.ESPN_S2 }}
           SWID: ${{ secrets.SWID }}
         run: node fetch-espn.mjs
       - name: Hashtag Premium projections (your scoring)
+        if: env.STOP != '1'
         continue-on-error: true
         env:
           HASHTAG_COOKIE: ${{ secrets.HASHTAG_COOKIE }}
         run: node fetch-hashtag.mjs
       - name: Hashtag fantasy points
+        if: env.STOP != '1'
         run: node hashtag-points.mjs
       - name: Save data
+        if: env.STOP != '1'
         run: |
           git config user.name "espn-bot"
           git config user.email "espn-bot@users.noreply.github.com"
