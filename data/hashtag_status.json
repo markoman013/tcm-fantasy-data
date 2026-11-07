@@ -1,11 +1,11 @@
 {
  "ok": true,
- "fetchedAt": "2026-11-06T23:38:24.444Z",
+ "fetchedAt": "2026-11-07T07:48:46.890Z",
  "getStatus": 200,
- "getLen": 738889,
+ "getLen": 739433,
  "finalUrl": "https://hashtagbasketball.com/import-v4/fantasy-basketball-points-league-projections",
  "postStatus": 200,
- "postLen": 1887319,
- "players": 449,
+ "postLen": 1883408,
+ "players": 448,
  "problems": []
 }
