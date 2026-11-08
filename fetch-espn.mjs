@@ -42,6 +42,17 @@ for (let p = 1; p <= period; p++) {
   });
 }
 
+
+// 2b. Lineups as set for today AND tomorrow (ESPN keeps a separate lineup per day, so tomorrow's can differ from today's)
+await safe("lineups", async () => {
+  const out = { fetchedAt: new Date().toISOString(), periods: {} };
+  for (const p of [period, period + 1]) {
+    const j = await get(`${L}?view=mRoster&scoringPeriodId=${p}`);
+    out.periods[p] = Object.fromEntries(j.teams.map((t) => [t.id, t.roster.entries.map((e) => ({ id: e.playerPoolEntry.player.id, name: e.playerPoolEntry.player.fullName, slot: e.lineupSlotId, inj: e.playerPoolEntry.player.injuryStatus, proTeam: e.playerPoolEntry.player.proTeamId }))]));
+  }
+  save("lineups", out);
+});
+
 // 3. NBA schedule for every team, all season
 await safe("schedules", async () => save("schedules", await get(`${BASE}?view=proTeamSchedules_wl`)));
 

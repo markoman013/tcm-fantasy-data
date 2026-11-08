@@ -2,7 +2,7 @@ name: Fetch ESPN data
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 */6 * * *"
+    - cron: "*/30 * * * *"
 permissions:
   contents: write
 jobs:
@@ -29,7 +29,9 @@ jobs:
         continue-on-error: true
         env:
           HASHTAG_COOKIE: ${{ secrets.HASHTAG_COOKIE }}
-        run: node fetch-hashtag.mjs
+        run: |
+          H=$(date -u +%H); M=$(date -u +%M)
+          if [ "$GITHUB_EVENT_NAME" = "workflow_dispatch" ] || { [ $((10#$H % 6)) -eq 0 ] && [ $((10#$M)) -lt 30 ]; }; then node fetch-hashtag.mjs; else echo "Hashtag only every 6 hours"; fi
       - name: Hashtag fantasy points
         if: env.STOP != '1'
         run: node hashtag-points.mjs
