@@ -1,5 +1,5 @@
 {
- "computedAt": "2026-11-08T05:44:31.364Z",
+ "computedAt": "2026-11-08T16:44:44.929Z",
  "scoring": "FGM2 FGA-1 FTM1 FTA-1 3PM1 REB1 AST2 STL4 BLK4 TO-2 PTS1",
  "players": [
   {
@@ -19,28 +19,28 @@
    "stl": 1.7,
    "blk": 0.7,
    "to": 4.9,
-   "hashtagCatTotal": 18.19,
+   "hashtagCatTotal": 17.95,
    "fptsPerGame": 67.3
   },
   {
    "rank": 2,
    "name": "Victor Wembanyama",
    "pos": "C",
-   "gp": 9,
-   "mpg": 31,
-   "fgm": 10.6,
-   "fga": 21.4,
-   "ftm": 6.2,
-   "fta": 8.2,
-   "tpm": 1.8,
+   "gp": 10,
+   "mpg": 30.3,
+   "fgm": 10.4,
+   "fga": 20.6,
+   "ftm": 6.4,
+   "fta": 8.3,
+   "tpm": 1.9,
    "pts": 29.1,
-   "reb": 12.6,
+   "reb": 12,
    "ast": 3,
    "stl": 1.2,
-   "blk": 4.2,
+   "blk": 3.9,
    "to": 2.2,
-   "hashtagCatTotal": 14.7,
-   "fptsPerGame": 64.5
+   "hashtagCatTotal": 14.6,
+   "fptsPerGame": 63.3
   },
   {
    "rank": 4,
@@ -59,7 +59,7 @@
    "stl": 2,
    "blk": 1.1,
    "to": 3.3,
-   "hashtagCatTotal": 11.56,
+   "hashtagCatTotal": 11.49,
    "fptsPerGame": 56.9
   },
   {
@@ -79,7 +79,7 @@
    "stl": 0.9,
    "blk": 1,
    "to": 3.4,
-   "hashtagCatTotal": 7.22,
+   "hashtagCatTotal": 7.29,
    "fptsPerGame": 51.7
   },
   {
@@ -99,7 +99,7 @@
    "stl": 1.3,
    "blk": 0.8,
    "to": 2.3,
-   "hashtagCatTotal": 9.44,
+   "hashtagCatTotal": 9.38,
    "fptsPerGame": 51.6
   },
   {
@@ -119,7 +119,7 @@
    "stl": 2,
    "blk": 0.8,
    "to": 3.5,
-   "hashtagCatTotal": 9.11,
+   "hashtagCatTotal": 8.98,
    "fptsPerGame": 51.6
   },
   {
@@ -139,7 +139,7 @@
    "stl": 1.1,
    "blk": 0.1,
    "to": 1.9,
-   "hashtagCatTotal": 12.91,
+   "hashtagCatTotal": 12.75,
    "fptsPerGame": 50
   },
   {
@@ -159,7 +159,7 @@
    "stl": 1.3,
    "blk": 1.1,
    "to": 3.1,
-   "hashtagCatTotal": 7.77,
+   "hashtagCatTotal": 7.63,
    "fptsPerGame": 49.3
   },
   {
@@ -179,7 +179,7 @@
    "stl": 2.3,
    "blk": 0.9,
    "to": 3.1,
-   "hashtagCatTotal": 9.4,
+   "hashtagCatTotal": 9.24,
    "fptsPerGame": 49
   },
   {
@@ -199,11 +199,11 @@
    "stl": 1.6,
    "blk": 1.1,
    "to": 3.9,
-   "hashtagCatTotal": 8.12,
+   "hashtagCatTotal": 7.97,
    "fptsPerGame": 47.8
   },
   {
-   "rank": 8,
+   "rank": 9,
    "name": "Jayson Tatum",
    "pos": "SF,PF",
    "gp": 8,
@@ -219,7 +219,7 @@
    "stl": 0.8,
    "blk": 0.5,
    "to": 3,
-   "hashtagCatTotal": 8.45,
+   "hashtagCatTotal": 8.2,
    "fptsPerGame": 47.7
   },
   {
@@ -239,7 +239,7 @@
    "stl": 1,
    "blk": 1.1,
    "to": 2.2,
-   "hashtagCatTotal": 7.66,
+   "hashtagCatTotal": 7.51,
    "fptsPerGame": 47.5
   },
   {
@@ -279,7 +279,7 @@
    "stl": 1.5,
    "blk": 0.7,
    "to": 2.1,
-   "hashtagCatTotal": 7.51,
+   "hashtagCatTotal": 7.33,
    "fptsPerGame": 46.2
   },
   {
@@ -299,11 +299,11 @@
    "stl": 1,
    "blk": 0.6,
    "to": 2.6,
-   "hashtagCatTotal": 7.95,
+   "hashtagCatTotal": 7.8,
    "fptsPerGame": 45.2
   },
   {
-   "rank": 30,
+   "rank": 26,
    "name": "Paolo Banchero",
    "pos": "PF",
    "gp": 2,
@@ -319,7 +319,7 @@
    "stl": 1,
    "blk": 0,
    "to": 4,
-   "hashtagCatTotal": 5.64,
+   "hashtagCatTotal": 5.67,
    "fptsPerGame": 45
   },
   {
@@ -359,7 +359,7 @@
    "stl": 1.1,
    "blk": 0.2,
    "to": 4.3,
-   "hashtagCatTotal": 6.26,
+   "hashtagCatTotal": 6.27,
    "fptsPerGame": 43.7
   },
   {
@@ -379,7 +379,7 @@
    "stl": 1,
    "blk": 0.6,
    "to": 3.1,
-   "hashtagCatTotal": 5.59,
+   "hashtagCatTotal": 5.45,
    "fptsPerGame": 42.9
   },
   {
@@ -399,11 +399,11 @@
    "stl": 1.4,
    "blk": 1.1,
    "to": 2,
-   "hashtagCatTotal": 6.4,
+   "hashtagCatTotal": 6.29,
    "fptsPerGame": 42.6
   },
   {
-   "rank": 47,
+   "rank": 50,
    "name": "Scottie Barnes",
    "pos": "SF,PF,C",
    "gp": 8,
@@ -419,11 +419,11 @@
    "stl": 2.3,
    "blk": 0.6,
    "to": 3.9,
-   "hashtagCatTotal": 3.69,
+   "hashtagCatTotal": 3.48,
    "fptsPerGame": 42.6
   },
   {
-   "rank": 26,
+   "rank": 28,
    "name": "Donovan Mitchell",
    "pos": "PG,SG",
    "gp": 10,
@@ -439,31 +439,11 @@
    "stl": 1.3,
    "blk": 0.5,
    "to": 3.3,
-   "hashtagCatTotal": 5.76,
+   "hashtagCatTotal": 5.59,
    "fptsPerGame": 42
   },
   {
    "rank": 18,
-   "name": "Ty Jerome",
-   "pos": "PG,SG",
-   "gp": 8,
-   "mpg": 30.4,
-   "fgm": 9.3,
-   "fga": 18.4,
-   "ftm": 5.6,
-   "fta": 6.4,
-   "tpm": 2.5,
-   "pts": 26.6,
-   "reb": 3.4,
-   "ast": 5.1,
-   "stl": 0.9,
-   "blk": 0.3,
-   "to": 2.5,
-   "hashtagCatTotal": 6.65,
-   "fptsPerGame": 41.9
-  },
-  {
-   "rank": 19,
    "name": "Walker Kessler",
    "pos": "C",
    "gp": 10,
@@ -479,7 +459,27 @@
    "stl": 1.3,
    "blk": 2.4,
    "to": 1.3,
-   "hashtagCatTotal": 6.45,
+   "hashtagCatTotal": 6.56,
+   "fptsPerGame": 41.9
+  },
+  {
+   "rank": 19,
+   "name": "Ty Jerome",
+   "pos": "PG,SG",
+   "gp": 8,
+   "mpg": 30.4,
+   "fgm": 9.3,
+   "fga": 18.4,
+   "ftm": 5.6,
+   "fta": 6.4,
+   "tpm": 2.5,
+   "pts": 26.6,
+   "reb": 3.4,
+   "ast": 5.1,
+   "stl": 0.9,
+   "blk": 0.3,
+   "to": 2.5,
+   "hashtagCatTotal": 6.5,
    "fptsPerGame": 41.9
   },
   {
@@ -499,11 +499,11 @@
    "stl": 0.8,
    "blk": 0.4,
    "to": 3.3,
-   "hashtagCatTotal": 7.04,
+   "hashtagCatTotal": 6.94,
    "fptsPerGame": 41.7
   },
   {
-   "rank": 23,
+   "rank": 24,
    "name": "Domantas Sabonis",
    "pos": "PF,C",
    "gp": 9,
@@ -519,11 +519,11 @@
    "stl": 0.9,
    "blk": 0.1,
    "to": 3.7,
-   "hashtagCatTotal": 6.09,
+   "hashtagCatTotal": 5.99,
    "fptsPerGame": 41
   },
   {
-   "rank": 29,
+   "rank": 32,
    "name": "Zion Williamson",
    "pos": "PF,C",
    "gp": 9,
@@ -539,11 +539,11 @@
    "stl": 2.4,
    "blk": 0.6,
    "to": 1.9,
-   "hashtagCatTotal": 5.64,
+   "hashtagCatTotal": 5.44,
    "fptsPerGame": 40.9
   },
   {
-   "rank": 28,
+   "rank": 27,
    "name": "Miles Bridges",
    "pos": "PF",
    "gp": 8,
@@ -559,7 +559,7 @@
    "stl": 1.4,
    "blk": 0.8,
    "to": 0.8,
-   "hashtagCatTotal": 5.66,
+   "hashtagCatTotal": 5.61,
    "fptsPerGame": 40.4
   },
   {
@@ -579,7 +579,7 @@
    "stl": 2,
    "blk": 0.7,
    "to": 1.9,
-   "hashtagCatTotal": 4.82,
+   "hashtagCatTotal": 4.66,
    "fptsPerGame": 40.4
   },
   {
@@ -619,11 +619,11 @@
    "stl": 2.4,
    "blk": 0.5,
    "to": 3.3,
-   "hashtagCatTotal": 6.25,
+   "hashtagCatTotal": 6.17,
    "fptsPerGame": 40
   },
   {
-   "rank": 41,
+   "rank": 40,
    "name": "Evan Mobley",
    "pos": "PF,C",
    "gp": 10,
@@ -639,28 +639,8 @@
    "stl": 0.5,
    "blk": 1.2,
    "to": 1.4,
-   "hashtagCatTotal": 4.4,
+   "hashtagCatTotal": 4.3,
    "fptsPerGame": 40
-  },
-  {
-   "rank": 89,
-   "name": "Deni Avdija",
-   "pos": "SG,SF,PF",
-   "gp": 8,
-   "mpg": 33.4,
-   "fgm": 7.5,
-   "fga": 15.6,
-   "ftm": 6.6,
-   "fta": 10,
-   "tpm": 1.6,
-   "pts": 23.3,
-   "reb": 6.6,
-   "ast": 7,
-   "stl": 0.9,
-   "blk": 0.1,
-   "to": 3,
-   "hashtagCatTotal": 1.96,
-   "fptsPerGame": 39.5
   },
   {
    "rank": 20,
@@ -679,7 +659,7 @@
    "stl": 1.1,
    "blk": 0.3,
    "to": 2.6,
-   "hashtagCatTotal": 6.45,
+   "hashtagCatTotal": 6.31,
    "fptsPerGame": 39.2
   },
   {
@@ -699,11 +679,11 @@
    "stl": 1.4,
    "blk": 0.4,
    "to": 1.7,
-   "hashtagCatTotal": 5.1,
+   "hashtagCatTotal": 5.03,
    "fptsPerGame": 38.9
   },
   {
-   "rank": 93,
+   "rank": 95,
    "name": "Jalen Brunson",
    "pos": "PG",
    "gp": 9,
@@ -719,7 +699,7 @@
    "stl": 0.7,
    "blk": 0.3,
    "to": 1.7,
-   "hashtagCatTotal": 1.82,
+   "hashtagCatTotal": 1.56,
    "fptsPerGame": 38.7
   },
   {
@@ -739,11 +719,11 @@
    "stl": 1.3,
    "blk": 0,
    "to": 4.6,
-   "hashtagCatTotal": 2.95,
+   "hashtagCatTotal": 2.77,
    "fptsPerGame": 38.5
   },
   {
-   "rank": 66,
+   "rank": 65,
    "name": "Darius Acuff Jr.",
    "pos": "PG",
    "gp": 9,
@@ -759,11 +739,11 @@
    "stl": 1,
    "blk": 0.1,
    "to": 3.4,
-   "hashtagCatTotal": 2.84,
+   "hashtagCatTotal": 2.71,
    "fptsPerGame": 38.4
   },
   {
-   "rank": 24,
+   "rank": 23,
    "name": "Dejounte Murray",
    "pos": "PG,SG",
    "gp": 6,
@@ -779,7 +759,7 @@
    "stl": 2.2,
    "blk": 0.8,
    "to": 2.8,
-   "hashtagCatTotal": 6.06,
+   "hashtagCatTotal": 5.99,
    "fptsPerGame": 38.1
   },
   {
@@ -799,7 +779,7 @@
    "stl": 1.2,
    "blk": 0.4,
    "to": 2.2,
-   "hashtagCatTotal": 3.28,
+   "hashtagCatTotal": 3.13,
    "fptsPerGame": 38.1
   },
   {
@@ -819,11 +799,11 @@
    "stl": 1.3,
    "blk": 0.6,
    "to": 2.7,
-   "hashtagCatTotal": 4.14,
+   "hashtagCatTotal": 4.1,
    "fptsPerGame": 37.9
   },
   {
-   "rank": 9,
+   "rank": 8,
    "name": "Kawhi Leonard",
    "pos": "SG,SF,PF",
    "gp": 2,
@@ -839,11 +819,11 @@
    "stl": 3.5,
    "blk": 0.5,
    "to": 2,
-   "hashtagCatTotal": 8.44,
+   "hashtagCatTotal": 8.34,
    "fptsPerGame": 37.5
   },
   {
-   "rank": 39,
+   "rank": 38,
    "name": "Yaxel Lendeborg",
    "pos": "SF,PF",
    "gp": 10,
@@ -859,11 +839,11 @@
    "stl": 1,
    "blk": 0.8,
    "to": 3.5,
-   "hashtagCatTotal": 4.77,
+   "hashtagCatTotal": 4.6,
    "fptsPerGame": 37.5
   },
   {
-   "rank": 78,
+   "rank": 76,
    "name": "LeBron James",
    "pos": "SF,PF",
    "gp": 8,
@@ -879,7 +859,7 @@
    "stl": 1.5,
    "blk": 0.9,
    "to": 2.9,
-   "hashtagCatTotal": 2.46,
+   "hashtagCatTotal": 2.33,
    "fptsPerGame": 37.5
   },
   {
@@ -899,11 +879,11 @@
    "stl": 1,
    "blk": 0.1,
    "to": 2.2,
-   "hashtagCatTotal": 3.45,
+   "hashtagCatTotal": 3.31,
    "fptsPerGame": 37.4
   },
   {
-   "rank": 62,
+   "rank": 60,
    "name": "Dyson Daniels",
    "pos": "SG,SF",
    "gp": 11,
@@ -919,11 +899,11 @@
    "stl": 2.9,
    "blk": 0.4,
    "to": 1.3,
-   "hashtagCatTotal": 2.96,
+   "hashtagCatTotal": 2.89,
    "fptsPerGame": 37.3
   },
   {
-   "rank": 38,
+   "rank": 36,
    "name": "Kyshawn George",
    "pos": "SG,SF,PF",
    "gp": 10,
@@ -939,11 +919,31 @@
    "stl": 0.6,
    "blk": 1.4,
    "to": 2.9,
-   "hashtagCatTotal": 4.8,
+   "hashtagCatTotal": 4.74,
    "fptsPerGame": 36.9
   },
   {
-   "rank": 40,
+   "rank": 106,
+   "name": "Deni Avdija",
+   "pos": "SG,SF,PF",
+   "gp": 9,
+   "mpg": 32.3,
+   "fgm": 7.2,
+   "fga": 15.3,
+   "ftm": 6.2,
+   "fta": 9.3,
+   "tpm": 1.7,
+   "pts": 22.3,
+   "reb": 6.3,
+   "ast": 6.3,
+   "stl": 0.9,
+   "blk": 0.1,
+   "to": 3,
+   "hashtagCatTotal": 1.16,
+   "fptsPerGame": 36.9
+  },
+  {
+   "rank": 39,
    "name": "Anthony Black",
    "pos": "PG,SG,SF",
    "gp": 6,
@@ -959,7 +959,7 @@
    "stl": 1.7,
    "blk": 0.8,
    "to": 2.7,
-   "hashtagCatTotal": 4.46,
+   "hashtagCatTotal": 4.34,
    "fptsPerGame": 36.6
   },
   {
@@ -979,7 +979,7 @@
    "stl": 0.9,
    "blk": 1,
    "to": 1,
-   "hashtagCatTotal": 5.42,
+   "hashtagCatTotal": 5.38,
    "fptsPerGame": 36.5
   },
   {
@@ -999,7 +999,7 @@
    "stl": 1.1,
    "blk": 0.2,
    "to": 3.3,
-   "hashtagCatTotal": 3.96,
+   "hashtagCatTotal": 3.74,
    "fptsPerGame": 36.4
   },
   {
@@ -1019,11 +1019,11 @@
    "stl": 1.1,
    "blk": 0.4,
    "to": 3.9,
-   "hashtagCatTotal": 6.01,
+   "hashtagCatTotal": 5.85,
    "fptsPerGame": 36
   },
   {
-   "rank": 32,
+   "rank": 30,
    "name": "Yves Missi",
    "pos": "C",
    "gp": 2,
@@ -1039,31 +1039,11 @@
    "stl": 1,
    "blk": 2,
    "to": 0.5,
-   "hashtagCatTotal": 5.5,
+   "hashtagCatTotal": 5.51,
    "fptsPerGame": 36
   },
   {
-   "rank": 36,
-   "name": "Donovan Clingan",
-   "pos": "C",
-   "gp": 8,
-   "mpg": 24.8,
-   "fgm": 4.9,
-   "fga": 8.3,
-   "ftm": 1.6,
-   "fta": 2.5,
-   "tpm": 1.3,
-   "pts": 12.6,
-   "reb": 10.5,
-   "ast": 1.5,
-   "stl": 0.4,
-   "blk": 2.3,
-   "to": 1.6,
-   "hashtagCatTotal": 5.02,
-   "fptsPerGame": 35.6
-  },
-  {
-   "rank": 27,
+   "rank": 29,
    "name": "Kevin Durant",
    "pos": "SG,SF,PF",
    "gp": 10,
@@ -1079,11 +1059,11 @@
    "stl": 0.7,
    "blk": 1.4,
    "to": 3,
-   "hashtagCatTotal": 5.69,
+   "hashtagCatTotal": 5.52,
    "fptsPerGame": 35.5
   },
   {
-   "rank": 54,
+   "rank": 51,
    "name": "Jaden McDaniels",
    "pos": "SF",
    "gp": 10,
@@ -1099,11 +1079,11 @@
    "stl": 0.9,
    "blk": 0.8,
    "to": 1.8,
-   "hashtagCatTotal": 3.39,
+   "hashtagCatTotal": 3.36,
    "fptsPerGame": 35.4
   },
   {
-   "rank": 44,
+   "rank": 43,
    "name": "Ayo Dosunmu",
    "pos": "PG,SG",
    "gp": 10,
@@ -1119,11 +1099,11 @@
    "stl": 1.2,
    "blk": 0.5,
    "to": 2,
-   "hashtagCatTotal": 3.99,
+   "hashtagCatTotal": 3.95,
    "fptsPerGame": 35.3
   },
   {
-   "rank": 107,
+   "rank": 108,
    "name": "Pascal Siakam",
    "pos": "PF,C",
    "gp": 9,
@@ -1139,7 +1119,7 @@
    "stl": 0.9,
    "blk": 0.1,
    "to": 2.3,
-   "hashtagCatTotal": 1.21,
+   "hashtagCatTotal": 1.03,
    "fptsPerGame": 35.3
   },
   {
@@ -1159,11 +1139,11 @@
    "stl": 1.9,
    "blk": 0.3,
    "to": 1.1,
-   "hashtagCatTotal": 5.26,
+   "hashtagCatTotal": 5.15,
    "fptsPerGame": 35.2
   },
   {
-   "rank": 51,
+   "rank": 53,
    "name": "Michael Porter Jr.",
    "pos": "SF,PF",
    "gp": 9,
@@ -1179,7 +1159,7 @@
    "stl": 1.3,
    "blk": 0.4,
    "to": 2.1,
-   "hashtagCatTotal": 3.48,
+   "hashtagCatTotal": 3.31,
    "fptsPerGame": 35.2
   },
   {
@@ -1199,7 +1179,7 @@
    "stl": 1.9,
    "blk": 1.1,
    "to": 2.8,
-   "hashtagCatTotal": 2.74,
+   "hashtagCatTotal": 2.6,
    "fptsPerGame": 35.1
   },
   {
@@ -1219,7 +1199,7 @@
    "stl": 1.3,
    "blk": 0.5,
    "to": 1.5,
-   "hashtagCatTotal": 2.62,
+   "hashtagCatTotal": 2.52,
    "fptsPerGame": 34.8
   },
   {
@@ -1239,11 +1219,11 @@
    "stl": 0.7,
    "blk": 3,
    "to": 1.7,
-   "hashtagCatTotal": 7.18,
+   "hashtagCatTotal": 7.19,
    "fptsPerGame": 34.4
   },
   {
-   "rank": 79,
+   "rank": 78,
    "name": "Immanuel Quickley",
    "pos": "PG,SG",
    "gp": 8,
@@ -1259,11 +1239,11 @@
    "stl": 1.1,
    "blk": 0,
    "to": 1,
-   "hashtagCatTotal": 2.42,
+   "hashtagCatTotal": 2.29,
    "fptsPerGame": 34.3
   },
   {
-   "rank": 67,
+   "rank": 64,
    "name": "Ajay Mitchell",
    "pos": "PG,SG",
    "gp": 10,
@@ -1279,11 +1259,11 @@
    "stl": 1.3,
    "blk": 0.4,
    "to": 1.4,
-   "hashtagCatTotal": 2.81,
+   "hashtagCatTotal": 2.71,
    "fptsPerGame": 34
   },
   {
-   "rank": 139,
+   "rank": 137,
    "name": "RJ Barrett",
    "pos": "SG,SF,PF",
    "gp": 9,
@@ -1299,11 +1279,11 @@
    "stl": 0.4,
    "blk": 0.4,
    "to": 1.8,
-   "hashtagCatTotal": -0.15,
+   "hashtagCatTotal": -0.14,
    "fptsPerGame": 33.9
   },
   {
-   "rank": 49,
+   "rank": 48,
    "name": "LaMelo Ball",
    "pos": "PG",
    "gp": 10,
@@ -1319,11 +1299,11 @@
    "stl": 1.7,
    "blk": 0.1,
    "to": 3.9,
-   "hashtagCatTotal": 3.66,
+   "hashtagCatTotal": 3.56,
    "fptsPerGame": 33.7
   },
   {
-   "rank": 83,
+   "rank": 86,
    "name": "Keyonte George",
    "pos": "PG,SG",
    "gp": 9,
@@ -1339,31 +1319,31 @@
    "stl": 0.9,
    "blk": 0.2,
    "to": 3.9,
-   "hashtagCatTotal": 2.19,
+   "hashtagCatTotal": 1.99,
    "fptsPerGame": 33.7
   },
   {
-   "rank": 64,
+   "rank": 67,
    "name": "Dylan Harper",
    "pos": "PG,SG",
-   "gp": 9,
-   "mpg": 32.6,
-   "fgm": 7,
-   "fga": 14,
-   "ftm": 3.4,
-   "fta": 3.9,
+   "gp": 10,
+   "mpg": 32.1,
+   "fgm": 6.9,
+   "fga": 13.9,
+   "ftm": 3.1,
+   "fta": 3.5,
    "tpm": 1.2,
-   "pts": 18.7,
-   "reb": 5.2,
+   "pts": 18.1,
+   "reb": 5.4,
    "ast": 4.4,
-   "stl": 0.9,
-   "blk": 0,
-   "to": 1.7,
-   "hashtagCatTotal": 2.93,
-   "fptsPerGame": 33.6
+   "stl": 0.8,
+   "blk": 0.1,
+   "to": 1.6,
+   "hashtagCatTotal": 2.64,
+   "fptsPerGame": 33.4
   },
   {
-   "rank": 50,
+   "rank": 49,
    "name": "Nickeil Alexander-Walker",
    "pos": "PG,SG",
    "gp": 11,
@@ -1379,11 +1359,11 @@
    "stl": 1.4,
    "blk": 0.2,
    "to": 2.2,
-   "hashtagCatTotal": 3.65,
+   "hashtagCatTotal": 3.52,
    "fptsPerGame": 33.1
   },
   {
-   "rank": 85,
+   "rank": 82,
    "name": "Ja Morant",
    "pos": "PG",
    "gp": 4,
@@ -1399,28 +1379,8 @@
    "stl": 1,
    "blk": 0,
    "to": 1.3,
-   "hashtagCatTotal": 2.13,
+   "hashtagCatTotal": 2.08,
    "fptsPerGame": 33
-  },
-  {
-   "rank": 57,
-   "name": "De'Aaron Fox",
-   "pos": "PG",
-   "gp": 9,
-   "mpg": 30.5,
-   "fgm": 4.9,
-   "fga": 9.2,
-   "ftm": 3.8,
-   "fta": 4.7,
-   "tpm": 0.9,
-   "pts": 14.4,
-   "reb": 4,
-   "ast": 5.9,
-   "stl": 1.3,
-   "blk": 0.6,
-   "to": 2.8,
-   "hashtagCatTotal": 3.25,
-   "fptsPerGame": 32.8
   },
   {
    "rank": 74,
@@ -1439,11 +1399,11 @@
    "stl": 0.6,
    "blk": 0.1,
    "to": 2.3,
-   "hashtagCatTotal": 2.61,
+   "hashtagCatTotal": 2.5,
    "fptsPerGame": 32.8
   },
   {
-   "rank": 75,
+   "rank": 72,
    "name": "Fred VanVleet",
    "pos": "PG",
    "gp": 8,
@@ -1459,11 +1419,11 @@
    "stl": 1.3,
    "blk": 0.3,
    "to": 1.5,
-   "hashtagCatTotal": 2.6,
+   "hashtagCatTotal": 2.54,
    "fptsPerGame": 32.7
   },
   {
-   "rank": 68,
+   "rank": 70,
    "name": "Julius Randle",
    "pos": "PF",
    "gp": 9,
@@ -1479,11 +1439,31 @@
    "stl": 0.9,
    "blk": 0.1,
    "to": 4.1,
-   "hashtagCatTotal": 2.8,
+   "hashtagCatTotal": 2.57,
    "fptsPerGame": 32.6
   },
   {
-   "rank": 71,
+   "rank": 46,
+   "name": "Donovan Clingan",
+   "pos": "C",
+   "gp": 9,
+   "mpg": 24.5,
+   "fgm": 4.7,
+   "fga": 8,
+   "ftm": 1.4,
+   "fta": 2.2,
+   "tpm": 1.1,
+   "pts": 11.9,
+   "reb": 9.9,
+   "ast": 1.3,
+   "stl": 0.3,
+   "blk": 2,
+   "to": 1.4,
+   "hashtagCatTotal": 3.65,
+   "fptsPerGame": 32.5
+  },
+  {
+   "rank": 68,
    "name": "Onyeka Okongwu",
    "pos": "C",
    "gp": 11,
@@ -1499,11 +1479,11 @@
    "stl": 0.9,
    "blk": 0.8,
    "to": 1,
-   "hashtagCatTotal": 2.66,
+   "hashtagCatTotal": 2.61,
    "fptsPerGame": 32.5
   },
   {
-   "rank": 48,
+   "rank": 47,
    "name": "Kris Dunn",
    "pos": "PG,SG",
    "gp": 8,
@@ -1519,11 +1499,31 @@
    "stl": 2.8,
    "blk": 0.6,
    "to": 1.6,
-   "hashtagCatTotal": 3.67,
+   "hashtagCatTotal": 3.62,
    "fptsPerGame": 32.3
   },
   {
    "rank": 59,
+   "name": "De'Aaron Fox",
+   "pos": "PG",
+   "gp": 10,
+   "mpg": 29.6,
+   "fgm": 4.5,
+   "fga": 8.6,
+   "ftm": 3.9,
+   "fta": 4.8,
+   "tpm": 0.9,
+   "pts": 13.8,
+   "reb": 3.9,
+   "ast": 5.9,
+   "stl": 1.3,
+   "blk": 0.6,
+   "to": 2.6,
+   "hashtagCatTotal": 2.96,
+   "fptsPerGame": 32.3
+  },
+  {
+   "rank": 58,
    "name": "Cedric Coward",
    "pos": "SG,SF",
    "gp": 8,
@@ -1539,31 +1539,11 @@
    "stl": 1.6,
    "blk": 0.1,
    "to": 1.8,
-   "hashtagCatTotal": 3.06,
+   "hashtagCatTotal": 3.01,
    "fptsPerGame": 32.1
   },
   {
-   "rank": 61,
-   "name": "Jrue Holiday",
-   "pos": "PG,SG",
-   "gp": 8,
-   "mpg": 26.7,
-   "fgm": 4.5,
-   "fga": 8.5,
-   "ftm": 1.8,
-   "fta": 2.1,
-   "tpm": 2.5,
-   "pts": 13.3,
-   "reb": 4.1,
-   "ast": 4.4,
-   "stl": 1,
-   "blk": 0.3,
-   "to": 1.1,
-   "hashtagCatTotal": 2.97,
-   "fptsPerGame": 31.9
-  },
-  {
-   "rank": 46,
+   "rank": 44,
    "name": "Cameron Boozer",
    "pos": "PF",
    "gp": 9,
@@ -1579,7 +1559,7 @@
    "stl": 0.3,
    "blk": 0.7,
    "to": 3.1,
-   "hashtagCatTotal": 3.87,
+   "hashtagCatTotal": 3.79,
    "fptsPerGame": 31.6
   },
   {
@@ -1599,11 +1579,11 @@
    "stl": 1,
    "blk": 1,
    "to": 1,
-   "hashtagCatTotal": 3.32,
+   "hashtagCatTotal": 3.26,
    "fptsPerGame": 31.5
   },
   {
-   "rank": 58,
+   "rank": 57,
    "name": "Wendell Carter Jr.",
    "pos": "C",
    "gp": 9,
@@ -1619,11 +1599,11 @@
    "stl": 1,
    "blk": 0.7,
    "to": 1.9,
-   "hashtagCatTotal": 3.21,
+   "hashtagCatTotal": 3.08,
    "fptsPerGame": 31.4
   },
   {
-   "rank": 53,
+   "rank": 54,
    "name": "Zach LaVine",
    "pos": "PG,SG,SF",
    "gp": 9,
@@ -1639,11 +1619,11 @@
    "stl": 1,
    "blk": 0.3,
    "to": 2.9,
-   "hashtagCatTotal": 3.42,
+   "hashtagCatTotal": 3.26,
    "fptsPerGame": 31.3
   },
   {
-   "rank": 86,
+   "rank": 83,
    "name": "Jarrett Allen",
    "pos": "C",
    "gp": 8,
@@ -1659,11 +1639,11 @@
    "stl": 0.6,
    "blk": 1.5,
    "to": 0.9,
-   "hashtagCatTotal": 2.11,
+   "hashtagCatTotal": 2.02,
    "fptsPerGame": 31.3
   },
   {
-   "rank": 65,
+   "rank": 62,
    "name": "Paul Reed",
    "pos": "PF,C",
    "gp": 8,
@@ -1679,31 +1659,11 @@
    "stl": 1.3,
    "blk": 0.9,
    "to": 1.9,
-   "hashtagCatTotal": 2.88,
+   "hashtagCatTotal": 2.84,
    "fptsPerGame": 31.2
   },
   {
-   "rank": 72,
-   "name": "Damian Lillard",
-   "pos": "PG",
-   "gp": 8,
-   "mpg": 30.6,
-   "fgm": 5.9,
-   "fga": 14.1,
-   "ftm": 5.8,
-   "fta": 6.8,
-   "tpm": 2.9,
-   "pts": 20.4,
-   "reb": 3.6,
-   "ast": 4.1,
-   "stl": 0.9,
-   "blk": 0.1,
-   "to": 2.3,
-   "hashtagCatTotal": 2.64,
-   "fptsPerGame": 31.2
-  },
-  {
-   "rank": 98,
+   "rank": 102,
    "name": "Amen Thompson",
    "pos": "PG,SG",
    "gp": 10,
@@ -1719,11 +1679,11 @@
    "stl": 1.2,
    "blk": 0.6,
    "to": 1.7,
-   "hashtagCatTotal": 1.56,
+   "hashtagCatTotal": 1.44,
    "fptsPerGame": 31.2
   },
   {
-   "rank": 60,
+   "rank": 61,
    "name": "Joel Embiid",
    "pos": "C",
    "gp": 8,
@@ -1739,11 +1699,11 @@
    "stl": 0.6,
    "blk": 0.9,
    "to": 3.3,
-   "hashtagCatTotal": 3.02,
+   "hashtagCatTotal": 2.86,
    "fptsPerGame": 31
   },
   {
-   "rank": 96,
+   "rank": 94,
    "name": "VJ Edgecombe",
    "pos": "PG,SG",
    "gp": 9,
@@ -1759,11 +1719,11 @@
    "stl": 1.4,
    "blk": 0.4,
    "to": 1.2,
-   "hashtagCatTotal": 1.62,
+   "hashtagCatTotal": 1.58,
    "fptsPerGame": 31
   },
   {
-   "rank": 125,
+   "rank": 124,
    "name": "Jonathan Kuminga",
    "pos": "SF,PF",
    "gp": 10,
@@ -1779,11 +1739,31 @@
    "stl": 1.2,
    "blk": 0.9,
    "to": 0.9,
-   "hashtagCatTotal": 0.43,
+   "hashtagCatTotal": 0.45,
    "fptsPerGame": 30.6
   },
   {
-   "rank": 76,
+   "rank": 110,
+   "name": "Stephon Castle",
+   "pos": "PG,SG",
+   "gp": 10,
+   "mpg": 29.1,
+   "fgm": 5.8,
+   "fga": 14.3,
+   "ftm": 1.5,
+   "fta": 1.9,
+   "tpm": 2.2,
+   "pts": 15.3,
+   "reb": 5.9,
+   "ast": 5,
+   "stl": 0.8,
+   "blk": 0.3,
+   "to": 2.1,
+   "hashtagCatTotal": 0.93,
+   "fptsPerGame": 30.5
+  },
+  {
+   "rank": 75,
    "name": "Lauri Markkanen",
    "pos": "SF,PF",
    "gp": 8,
@@ -1799,31 +1779,31 @@
    "stl": 0.6,
    "blk": 0.6,
    "to": 1.5,
-   "hashtagCatTotal": 2.56,
+   "hashtagCatTotal": 2.45,
    "fptsPerGame": 30.4
   },
   {
-   "rank": 120,
-   "name": "Stephon Castle",
-   "pos": "PG,SG",
+   "rank": 89,
+   "name": "Damian Lillard",
+   "pos": "PG",
    "gp": 9,
-   "mpg": 29.6,
-   "fgm": 5.9,
-   "fga": 14.6,
-   "ftm": 1.4,
-   "fta": 1.9,
-   "tpm": 2.2,
-   "pts": 15.4,
-   "reb": 5.8,
-   "ast": 5,
-   "stl": 0.9,
-   "blk": 0.2,
-   "to": 2.1,
-   "hashtagCatTotal": 0.76,
-   "fptsPerGame": 30.3
+   "mpg": 29.4,
+   "fgm": 5.7,
+   "fga": 13.4,
+   "ftm": 5.3,
+   "fta": 6.3,
+   "tpm": 2.8,
+   "pts": 19.4,
+   "reb": 3.2,
+   "ast": 4.4,
+   "stl": 0.8,
+   "blk": 0.1,
+   "to": 2.3,
+   "hashtagCatTotal": 1.89,
+   "fptsPerGame": 30.2
   },
   {
-   "rank": 43,
+   "rank": 41,
    "name": "Spencer Jones",
    "pos": "SF,PF",
    "gp": 1,
@@ -1839,11 +1819,11 @@
    "stl": 0,
    "blk": 1,
    "to": 0,
-   "hashtagCatTotal": 4.1,
+   "hashtagCatTotal": 4.15,
    "fptsPerGame": 30
   },
   {
-   "rank": 70,
+   "rank": 66,
    "name": "Moussa Diabaté",
    "pos": "C",
    "gp": 9,
@@ -1859,11 +1839,11 @@
    "stl": 1.6,
    "blk": 0.9,
    "to": 1.8,
-   "hashtagCatTotal": 2.73,
+   "hashtagCatTotal": 2.69,
    "fptsPerGame": 29.7
   },
   {
-   "rank": 92,
+   "rank": 91,
    "name": "James Harden",
    "pos": "PG,SG",
    "gp": 10,
@@ -1879,11 +1859,11 @@
    "stl": 0.6,
    "blk": 0.6,
    "to": 2.9,
-   "hashtagCatTotal": 1.89,
+   "hashtagCatTotal": 1.75,
    "fptsPerGame": 29.7
   },
   {
-   "rank": 82,
+   "rank": 80,
    "name": "Brandon Miller",
    "pos": "SF,PF",
    "gp": 10,
@@ -1899,7 +1879,7 @@
    "stl": 1.1,
    "blk": 0.8,
    "to": 2.2,
-   "hashtagCatTotal": 2.24,
+   "hashtagCatTotal": 2.16,
    "fptsPerGame": 29.4
   },
   {
@@ -1919,11 +1899,11 @@
    "stl": 1.2,
    "blk": 0.9,
    "to": 1.3,
-   "hashtagCatTotal": 1.55,
+   "hashtagCatTotal": 1.47,
    "fptsPerGame": 29.3
   },
   {
-   "rank": 112,
+   "rank": 116,
    "name": "Ausar Thompson",
    "pos": "SG,SF,PF",
    "gp": 7,
@@ -1939,11 +1919,11 @@
    "stl": 1,
    "blk": 0.6,
    "to": 2.3,
-   "hashtagCatTotal": 0.89,
+   "hashtagCatTotal": 0.81,
    "fptsPerGame": 29.1
   },
   {
-   "rank": 80,
+   "rank": 77,
    "name": "Christian Braun",
    "pos": "SG,SF,PF",
    "gp": 8,
@@ -1959,11 +1939,31 @@
    "stl": 2,
    "blk": 0.1,
    "to": 1.4,
-   "hashtagCatTotal": 2.34,
+   "hashtagCatTotal": 2.29,
    "fptsPerGame": 29
   },
   {
-   "rank": 95,
+   "rank": 81,
+   "name": "Jrue Holiday",
+   "pos": "PG,SG",
+   "gp": 9,
+   "mpg": 25.9,
+   "fgm": 4.3,
+   "fga": 8.4,
+   "ftm": 2,
+   "fta": 2.3,
+   "tpm": 2.3,
+   "pts": 13,
+   "reb": 3.7,
+   "ast": 3.9,
+   "stl": 1,
+   "blk": 0.2,
+   "to": 1.3,
+   "hashtagCatTotal": 2.08,
+   "fptsPerGame": 28.9
+  },
+  {
+   "rank": 96,
    "name": "Trey Murphy III",
    "pos": "SG,SF",
    "gp": 8,
@@ -1979,11 +1979,11 @@
    "stl": 1,
    "blk": 0.3,
    "to": 1.5,
-   "hashtagCatTotal": 1.63,
+   "hashtagCatTotal": 1.54,
    "fptsPerGame": 28.8
   },
   {
-   "rank": 99,
+   "rank": 97,
    "name": "Josh Hart",
    "pos": "SG,SF",
    "gp": 7,
@@ -1999,11 +1999,11 @@
    "stl": 2,
    "blk": 0.3,
    "to": 2,
-   "hashtagCatTotal": 1.56,
+   "hashtagCatTotal": 1.52,
    "fptsPerGame": 28.6
   },
   {
-   "rank": 87,
+   "rank": 85,
    "name": "Derrick White",
    "pos": "PG,SG",
    "gp": 9,
@@ -2019,11 +2019,11 @@
    "stl": 1.3,
    "blk": 0.3,
    "to": 2.6,
-   "hashtagCatTotal": 2.06,
+   "hashtagCatTotal": 2.01,
    "fptsPerGame": 28.5
   },
   {
-   "rank": 158,
+   "rank": 159,
    "name": "Naji Marshall",
    "pos": "SG,SF,PF",
    "gp": 6,
@@ -2039,11 +2039,11 @@
    "stl": 1.3,
    "blk": 0.3,
    "to": 1.8,
-   "hashtagCatTotal": -0.67,
+   "hashtagCatTotal": -0.76,
    "fptsPerGame": 28.4
   },
   {
-   "rank": 88,
+   "rank": 87,
    "name": "Saddiq Bey",
    "pos": "SF,PF",
    "gp": 9,
@@ -2059,7 +2059,7 @@
    "stl": 1,
    "blk": 0.2,
    "to": 1.3,
-   "hashtagCatTotal": 2,
+   "hashtagCatTotal": 1.9,
    "fptsPerGame": 28.3
   },
   {
@@ -2079,7 +2079,7 @@
    "stl": 0.6,
    "blk": 0.9,
    "to": 1.6,
-   "hashtagCatTotal": 1.14,
+   "hashtagCatTotal": 1.02,
    "fptsPerGame": 28.2
   },
   {
@@ -2099,31 +2099,11 @@
    "stl": 1,
    "blk": 0.4,
    "to": 1.2,
-   "hashtagCatTotal": 0.92,
+   "hashtagCatTotal": 0.89,
    "fptsPerGame": 28.1
   },
   {
-   "rank": 97,
-   "name": "Darius Garland",
-   "pos": "PG",
-   "gp": 8,
-   "mpg": 33.7,
-   "fgm": 7.5,
-   "fga": 16.1,
-   "ftm": 3.4,
-   "fta": 4,
-   "tpm": 2.5,
-   "pts": 20.9,
-   "reb": 1.6,
-   "ast": 6.6,
-   "stl": 0.6,
-   "blk": 0,
-   "to": 5.5,
-   "hashtagCatTotal": 1.58,
-   "fptsPerGame": 27.9
-  },
-  {
-   "rank": 101,
+   "rank": 99,
    "name": "Alexandre Sarr",
    "pos": "C",
    "gp": 9,
@@ -2139,11 +2119,31 @@
    "stl": 1.1,
    "blk": 1,
    "to": 1.2,
-   "hashtagCatTotal": 1.54,
+   "hashtagCatTotal": 1.5,
    "fptsPerGame": 27.9
   },
   {
-   "rank": 81,
+   "rank": 101,
+   "name": "Darius Garland",
+   "pos": "PG",
+   "gp": 8,
+   "mpg": 33.7,
+   "fgm": 7.5,
+   "fga": 16.1,
+   "ftm": 3.4,
+   "fta": 4,
+   "tpm": 2.5,
+   "pts": 20.9,
+   "reb": 1.6,
+   "ast": 6.6,
+   "stl": 0.6,
+   "blk": 0,
+   "to": 5.5,
+   "hashtagCatTotal": 1.45,
+   "fptsPerGame": 27.9
+  },
+  {
+   "rank": 79,
    "name": "Daniel Gafford",
    "pos": "C",
    "gp": 9,
@@ -2159,7 +2159,7 @@
    "stl": 0.8,
    "blk": 1.9,
    "to": 1.6,
-   "hashtagCatTotal": 2.25,
+   "hashtagCatTotal": 2.23,
    "fptsPerGame": 27.8
   },
   {
@@ -2179,11 +2179,11 @@
    "stl": 1,
    "blk": 0.8,
    "to": 2.6,
-   "hashtagCatTotal": 1.94,
+   "hashtagCatTotal": 1.84,
    "fptsPerGame": 27.8
   },
   {
-   "rank": 119,
+   "rank": 120,
    "name": "Dillon Brooks",
    "pos": "SF,PF",
    "gp": 8,
@@ -2199,7 +2199,7 @@
    "stl": 0.9,
    "blk": 0.3,
    "to": 1.9,
-   "hashtagCatTotal": 0.77,
+   "hashtagCatTotal": 0.66,
    "fptsPerGame": 27.8
   },
   {
@@ -2219,11 +2219,11 @@
    "stl": 1.1,
    "blk": 0.6,
    "to": 2.1,
-   "hashtagCatTotal": 2.19,
+   "hashtagCatTotal": 2.02,
    "fptsPerGame": 27.7
   },
   {
-   "rank": 132,
+   "rank": 131,
    "name": "Jeremiah Fears",
    "pos": "PG,SG",
    "gp": 9,
@@ -2239,11 +2239,31 @@
    "stl": 1.1,
    "blk": 0.4,
    "to": 2.6,
-   "hashtagCatTotal": 0.21,
+   "hashtagCatTotal": 0.11,
    "fptsPerGame": 27.7
   },
   {
-   "rank": 91,
+   "rank": 92,
+   "name": "Devin Vassell",
+   "pos": "SG,SF",
+   "gp": 10,
+   "mpg": 30.2,
+   "fgm": 3.9,
+   "fga": 9.6,
+   "ftm": 2.5,
+   "fta": 2.6,
+   "tpm": 1.6,
+   "pts": 11.9,
+   "reb": 3.8,
+   "ast": 3.1,
+   "stl": 1.7,
+   "blk": 0.3,
+   "to": 1,
+   "hashtagCatTotal": 1.75,
+   "fptsPerGame": 27.6
+  },
+  {
+   "rank": 88,
    "name": "Derrick Jones Jr.",
    "pos": "SF,PF",
    "gp": 7,
@@ -2259,11 +2279,11 @@
    "stl": 1.1,
    "blk": 0.9,
    "to": 1.1,
-   "hashtagCatTotal": 1.91,
+   "hashtagCatTotal": 1.9,
    "fptsPerGame": 27.5
   },
   {
-   "rank": 105,
+   "rank": 103,
    "name": "Nolan Traoré",
    "pos": "PG",
    "gp": 9,
@@ -2279,7 +2299,7 @@
    "stl": 1.6,
    "blk": 0.6,
    "to": 1.7,
-   "hashtagCatTotal": 1.27,
+   "hashtagCatTotal": 1.2,
    "fptsPerGame": 27.5
   },
   {
@@ -2299,31 +2319,11 @@
    "stl": 1.4,
    "blk": 1.2,
    "to": 0.8,
-   "hashtagCatTotal": -0.23,
+   "hashtagCatTotal": -0.2,
    "fptsPerGame": 27.4
   },
   {
-   "rank": 103,
-   "name": "Devin Vassell",
-   "pos": "SG,SF",
-   "gp": 9,
-   "mpg": 31.2,
-   "fgm": 3.9,
-   "fga": 9.8,
-   "ftm": 2.2,
-   "fta": 2.3,
-   "tpm": 1.6,
-   "pts": 11.6,
-   "reb": 4,
-   "ast": 3.1,
-   "stl": 1.7,
-   "blk": 0.3,
-   "to": 1.1,
-   "hashtagCatTotal": 1.41,
-   "fptsPerGame": 27.1
-  },
-  {
-   "rank": 77,
+   "rank": 71,
    "name": "Myles Turner",
    "pos": "C",
    "gp": 9,
@@ -2339,11 +2339,11 @@
    "stl": 0.7,
    "blk": 2.7,
    "to": 2,
-   "hashtagCatTotal": 2.5,
+   "hashtagCatTotal": 2.56,
    "fptsPerGame": 26.7
   },
   {
-   "rank": 149,
+   "rank": 148,
    "name": "Jaime Jaquez Jr.",
    "pos": "SG,SF,PF",
    "gp": 9,
@@ -2359,11 +2359,11 @@
    "stl": 0.4,
    "blk": 0.1,
    "to": 2,
-   "hashtagCatTotal": -0.4,
+   "hashtagCatTotal": -0.52,
    "fptsPerGame": 26.7
   },
   {
-   "rank": 123,
+   "rank": 121,
    "name": "Jalen Smith",
    "pos": "PF,C",
    "gp": 8,
@@ -2379,7 +2379,7 @@
    "stl": 0.4,
    "blk": 0.9,
    "to": 0.8,
-   "hashtagCatTotal": 0.68,
+   "hashtagCatTotal": 0.65,
    "fptsPerGame": 26.6
   },
   {
@@ -2399,11 +2399,11 @@
    "stl": 0.6,
    "blk": 0.5,
    "to": 2.6,
-   "hashtagCatTotal": -0.34,
+   "hashtagCatTotal": -0.43,
    "fptsPerGame": 26.6
   },
   {
-   "rank": 150,
+   "rank": 152,
    "name": "Jalen Williams",
    "pos": "SF,PF",
    "gp": 3,
@@ -2419,11 +2419,11 @@
    "stl": 1,
    "blk": 0.7,
    "to": 1.3,
-   "hashtagCatTotal": -0.53,
+   "hashtagCatTotal": -0.63,
    "fptsPerGame": 26.6
   },
   {
-   "rank": 133,
+   "rank": 132,
    "name": "Peyton Watson",
    "pos": "SF,PF",
    "gp": 8,
@@ -2439,11 +2439,11 @@
    "stl": 1,
    "blk": 1.6,
    "to": 1.8,
-   "hashtagCatTotal": 0.16,
+   "hashtagCatTotal": 0.1,
    "fptsPerGame": 26.5
   },
   {
-   "rank": 153,
+   "rank": 158,
    "name": "AJ Dybantsa",
    "pos": "SF",
    "gp": 6,
@@ -2459,7 +2459,7 @@
    "stl": 1.3,
    "blk": 0,
    "to": 1.7,
-   "hashtagCatTotal": -0.58,
+   "hashtagCatTotal": -0.76,
    "fptsPerGame": 26.3
   },
   {
@@ -2479,11 +2479,11 @@
    "stl": 0.9,
    "blk": 0.6,
    "to": 2.4,
-   "hashtagCatTotal": 1.3,
+   "hashtagCatTotal": 1.19,
    "fptsPerGame": 26.2
   },
   {
-   "rank": 118,
+   "rank": 117,
    "name": "Brook Lopez",
    "pos": "C",
    "gp": 8,
@@ -2499,11 +2499,11 @@
    "stl": 0.5,
    "blk": 1.1,
    "to": 1.3,
-   "hashtagCatTotal": 0.78,
+   "hashtagCatTotal": 0.72,
    "fptsPerGame": 26.2
   },
   {
-   "rank": 102,
+   "rank": 98,
    "name": "Jaxson Hayes",
    "pos": "C",
    "gp": 8,
@@ -2519,11 +2519,11 @@
    "stl": 1,
    "blk": 1.8,
    "to": 1.5,
-   "hashtagCatTotal": 1.54,
+   "hashtagCatTotal": 1.51,
    "fptsPerGame": 26.1
   },
   {
-   "rank": 116,
+   "rank": 115,
    "name": "Ace Bailey",
    "pos": "SF,PF",
    "gp": 9,
@@ -2539,11 +2539,11 @@
    "stl": 0.3,
    "blk": 1.4,
    "to": 1.9,
-   "hashtagCatTotal": 0.85,
+   "hashtagCatTotal": 0.86,
    "fptsPerGame": 26.1
   },
   {
-   "rank": 167,
+   "rank": 166,
    "name": "Josh Giddey",
    "pos": "PG,SG",
    "gp": 8,
@@ -2559,31 +2559,11 @@
    "stl": 0.5,
    "blk": 0.4,
    "to": 2.5,
-   "hashtagCatTotal": -1.18,
+   "hashtagCatTotal": -1.26,
    "fptsPerGame": 26.1
   },
   {
-   "rank": 106,
-   "name": "Toumani Camara",
-   "pos": "SF,PF",
-   "gp": 8,
-   "mpg": 28,
-   "fgm": 5,
-   "fga": 9.3,
-   "ftm": 0.8,
-   "fta": 1.3,
-   "tpm": 3.5,
-   "pts": 14.3,
-   "reb": 3.4,
-   "ast": 1.3,
-   "stl": 0.9,
-   "blk": 0.3,
-   "to": 1.4,
-   "hashtagCatTotal": 1.24,
-   "fptsPerGame": 26
-  },
-  {
-   "rank": 124,
+   "rank": 123,
    "name": "Isaiah Hartenstein",
    "pos": "C",
    "gp": 10,
@@ -2599,11 +2579,11 @@
    "stl": 1.2,
    "blk": 0.3,
    "to": 1.5,
-   "hashtagCatTotal": 0.54,
+   "hashtagCatTotal": 0.5,
    "fptsPerGame": 25.7
   },
   {
-   "rank": 117,
+   "rank": 119,
    "name": "Jaren Jackson Jr.",
    "pos": "PF,C",
    "gp": 4,
@@ -2619,11 +2599,11 @@
    "stl": 0.3,
    "blk": 1.3,
    "to": 3,
-   "hashtagCatTotal": 0.82,
+   "hashtagCatTotal": 0.68,
    "fptsPerGame": 25.5
   },
   {
-   "rank": 155,
+   "rank": 156,
    "name": "Max Strus",
    "pos": "SF,PF",
    "gp": 2,
@@ -2639,11 +2619,11 @@
    "stl": 1,
    "blk": 0,
    "to": 1,
-   "hashtagCatTotal": -0.63,
+   "hashtagCatTotal": -0.7,
    "fptsPerGame": 25.5
   },
   {
-   "rank": 108,
+   "rank": 105,
    "name": "Robert Williams III",
    "pos": "C",
    "gp": 7,
@@ -2663,7 +2643,7 @@
    "fptsPerGame": 25.2
   },
   {
-   "rank": 110,
+   "rank": 107,
    "name": "Ziaire Williams",
    "pos": "SG,SF",
    "gp": 7,
@@ -2679,11 +2659,11 @@
    "stl": 1.6,
    "blk": 0.1,
    "to": 0.6,
-   "hashtagCatTotal": 1.1,
+   "hashtagCatTotal": 1.06,
    "fptsPerGame": 25.1
   },
   {
-   "rank": 144,
+   "rank": 150,
    "name": "Norman Powell",
    "pos": "SG,SF",
    "gp": 8,
@@ -2699,11 +2679,11 @@
    "stl": 1.5,
    "blk": 0,
    "to": 1.8,
-   "hashtagCatTotal": -0.3,
+   "hashtagCatTotal": -0.59,
    "fptsPerGame": 25.1
   },
   {
-   "rank": 129,
+   "rank": 128,
    "name": "Cam Spencer",
    "pos": "PG,SG",
    "gp": 9,
@@ -2719,11 +2699,11 @@
    "stl": 0.7,
    "blk": 0,
    "to": 1.2,
-   "hashtagCatTotal": 0.3,
+   "hashtagCatTotal": 0.27,
    "fptsPerGame": 24.9
   },
   {
-   "rank": 152,
+   "rank": 151,
    "name": "Jalen Suggs",
    "pos": "PG,SG",
    "gp": 3,
@@ -2739,11 +2719,11 @@
    "stl": 2,
    "blk": 0.3,
    "to": 3,
-   "hashtagCatTotal": -0.56,
+   "hashtagCatTotal": -0.62,
    "fptsPerGame": 24.9
   },
   {
-   "rank": 137,
+   "rank": 138,
    "name": "Payton Pritchard",
    "pos": "PG",
    "gp": 9,
@@ -2759,11 +2739,11 @@
    "stl": 0.8,
    "blk": 0.2,
    "to": 1.4,
-   "hashtagCatTotal": -0.05,
+   "hashtagCatTotal": -0.15,
    "fptsPerGame": 24.6
   },
   {
-   "rank": 146,
+   "rank": 145,
    "name": "CJ McCollum",
    "pos": "PG,SG",
    "gp": 11,
@@ -2779,11 +2759,11 @@
    "stl": 1,
    "blk": 0.5,
    "to": 2.1,
-   "hashtagCatTotal": -0.34,
+   "hashtagCatTotal": -0.41,
    "fptsPerGame": 24.6
   },
   {
-   "rank": 115,
+   "rank": 114,
    "name": "Mo Bamba",
    "pos": "C",
    "gp": 5,
@@ -2799,11 +2779,11 @@
    "stl": 0.2,
    "blk": 1.6,
    "to": 0.6,
-   "hashtagCatTotal": 0.86,
+   "hashtagCatTotal": 0.87,
    "fptsPerGame": 24.4
   },
   {
-   "rank": 138,
+   "rank": 139,
    "name": "Isaiah Jackson",
    "pos": "C",
    "gp": 8,
@@ -2819,7 +2799,7 @@
    "stl": 1.4,
    "blk": 0.8,
    "to": 2.1,
-   "hashtagCatTotal": -0.13,
+   "hashtagCatTotal": -0.18,
    "fptsPerGame": 24.3
   },
   {
@@ -2839,11 +2819,11 @@
    "stl": 1.3,
    "blk": 0.4,
    "to": 0.8,
-   "hashtagCatTotal": -1.34,
+   "hashtagCatTotal": -1.46,
    "fptsPerGame": 24.3
   },
   {
-   "rank": 141,
+   "rank": 144,
    "name": "Aaron Gordon",
    "pos": "PF,C",
    "gp": 8,
@@ -2859,11 +2839,11 @@
    "stl": 1.1,
    "blk": 0.4,
    "to": 1.3,
-   "hashtagCatTotal": -0.24,
+   "hashtagCatTotal": -0.37,
    "fptsPerGame": 24.2
   },
   {
-   "rank": 128,
+   "rank": 127,
    "name": "Alex Caruso",
    "pos": "SG,SF",
    "gp": 7,
@@ -2879,11 +2859,11 @@
    "stl": 0.9,
    "blk": 0.4,
    "to": 0.4,
-   "hashtagCatTotal": 0.31,
+   "hashtagCatTotal": 0.28,
    "fptsPerGame": 24.1
   },
   {
-   "rank": 151,
+   "rank": 149,
    "name": "Tristan da Silva",
    "pos": "SF,PF",
    "gp": 9,
@@ -2899,11 +2879,11 @@
    "stl": 0.3,
    "blk": 0.3,
    "to": 1.4,
-   "hashtagCatTotal": -0.54,
+   "hashtagCatTotal": -0.57,
    "fptsPerGame": 24
   },
   {
-   "rank": 154,
+   "rank": 155,
    "name": "Obi Toppin",
    "pos": "SF,PF",
    "gp": 7,
@@ -2919,7 +2899,7 @@
    "stl": 0.3,
    "blk": 0.3,
    "to": 0.9,
-   "hashtagCatTotal": -0.59,
+   "hashtagCatTotal": -0.68,
    "fptsPerGame": 24
   },
   {
@@ -2939,31 +2919,11 @@
    "stl": 1.1,
    "blk": 1.2,
    "to": 1.4,
-   "hashtagCatTotal": 0.89,
+   "hashtagCatTotal": 0.87,
    "fptsPerGame": 23.9
   },
   {
-   "rank": 122,
-   "name": "Julian Champagnie",
-   "pos": "SF,PF",
-   "gp": 9,
-   "mpg": 25.8,
-   "fgm": 3.1,
-   "fga": 7,
-   "ftm": 0.7,
-   "fta": 0.8,
-   "tpm": 2.7,
-   "pts": 9.6,
-   "reb": 4.1,
-   "ast": 1.4,
-   "stl": 0.9,
-   "blk": 0.7,
-   "to": 0.4,
-   "hashtagCatTotal": 0.69,
-   "fptsPerGame": 23.9
-  },
-  {
-   "rank": 142,
+   "rank": 141,
    "name": "Draymond Green",
    "pos": "PF,C",
    "gp": 8,
@@ -2979,11 +2939,11 @@
    "stl": 1,
    "blk": 1,
    "to": 3.3,
-   "hashtagCatTotal": -0.26,
+   "hashtagCatTotal": -0.28,
    "fptsPerGame": 23.8
   },
   {
-   "rank": 143,
+   "rank": 142,
    "name": "Day'Ron Sharpe",
    "pos": "C",
    "gp": 9,
@@ -2999,11 +2959,11 @@
    "stl": 0.4,
    "blk": 1.1,
    "to": 2.2,
-   "hashtagCatTotal": -0.26,
+   "hashtagCatTotal": -0.33,
    "fptsPerGame": 23.8
   },
   {
-   "rank": 121,
+   "rank": 122,
    "name": "Pelle Larsson",
    "pos": "SG,SF",
    "gp": 9,
@@ -3019,11 +2979,11 @@
    "stl": 1.3,
    "blk": 0.1,
    "to": 1.8,
-   "hashtagCatTotal": 0.7,
+   "hashtagCatTotal": 0.57,
    "fptsPerGame": 23.7
   },
   {
-   "rank": 94,
+   "rank": 93,
    "name": "Grayson Allen",
    "pos": "SG,SF",
    "gp": 10,
@@ -3039,8 +2999,48 @@
    "stl": 0.6,
    "blk": 0.4,
    "to": 2.3,
-   "hashtagCatTotal": 1.72,
+   "hashtagCatTotal": 1.65,
    "fptsPerGame": 23.6
+  },
+  {
+   "rank": 118,
+   "name": "Julian Champagnie",
+   "pos": "SF,PF",
+   "gp": 10,
+   "mpg": 25.3,
+   "fgm": 3.2,
+   "fga": 7,
+   "ftm": 0.8,
+   "fta": 0.9,
+   "tpm": 2.8,
+   "pts": 10,
+   "reb": 4.1,
+   "ast": 1.3,
+   "stl": 0.8,
+   "blk": 0.6,
+   "to": 0.4,
+   "hashtagCatTotal": 0.68,
+   "fptsPerGame": 23.6
+  },
+  {
+   "rank": 136,
+   "name": "Toumani Camara",
+   "pos": "SF,PF",
+   "gp": 9,
+   "mpg": 27.2,
+   "fgm": 4.7,
+   "fga": 9,
+   "ftm": 0.7,
+   "fta": 1.1,
+   "tpm": 3.1,
+   "pts": 13.1,
+   "reb": 3.4,
+   "ast": 1.1,
+   "stl": 0.8,
+   "blk": 0.2,
+   "to": 1.3,
+   "hashtagCatTotal": -0.11,
+   "fptsPerGame": 23.2
   },
   {
    "rank": 130,
@@ -3059,11 +3059,11 @@
    "stl": 1,
    "blk": 0.5,
    "to": 1.3,
-   "hashtagCatTotal": 0.23,
+   "hashtagCatTotal": 0.19,
    "fptsPerGame": 23
   },
   {
-   "rank": 134,
+   "rank": 133,
    "name": "De'Anthony Melton",
    "pos": "PG,SG",
    "gp": 10,
@@ -3079,11 +3079,11 @@
    "stl": 1.5,
    "blk": 0.4,
    "to": 1.4,
-   "hashtagCatTotal": 0.09,
+   "hashtagCatTotal": 0.02,
    "fptsPerGame": 22.9
   },
   {
-   "rank": 136,
+   "rank": 135,
    "name": "Justin Champagnie",
    "pos": "SF,PF",
    "gp": 4,
@@ -3119,11 +3119,11 @@
    "stl": 1.6,
    "blk": 1.3,
    "to": 1.1,
-   "hashtagCatTotal": -0.8,
+   "hashtagCatTotal": -0.84,
    "fptsPerGame": 22.9
   },
   {
-   "rank": 195,
+   "rank": 196,
    "name": "Rui Hachimura",
    "pos": "SF,PF",
    "gp": 6,
@@ -3139,11 +3139,11 @@
    "stl": 1,
    "blk": 0.2,
    "to": 2.2,
-   "hashtagCatTotal": -2.09,
+   "hashtagCatTotal": -2.23,
    "fptsPerGame": 22.8
   },
   {
-   "rank": 135,
+   "rank": 134,
    "name": "Quenton Jackson",
    "pos": "PG,SG",
    "gp": 10,
@@ -3159,11 +3159,11 @@
    "stl": 1.3,
    "blk": 0.3,
    "to": 1.3,
-   "hashtagCatTotal": 0.08,
+   "hashtagCatTotal": 0.01,
    "fptsPerGame": 22.7
   },
   {
-   "rank": 127,
+   "rank": 126,
    "name": "Collin Murray-Boyles",
    "pos": "PF,C",
    "gp": 9,
@@ -3179,11 +3179,11 @@
    "stl": 1.2,
    "blk": 0.6,
    "to": 1.7,
-   "hashtagCatTotal": 0.35,
+   "hashtagCatTotal": 0.3,
    "fptsPerGame": 22.6
   },
   {
-   "rank": 157,
+   "rank": 153,
    "name": "Jordan Goodwin",
    "pos": "PG,SG",
    "gp": 5,
@@ -3199,7 +3199,7 @@
    "stl": 1.6,
    "blk": 0,
    "to": 0.6,
-   "hashtagCatTotal": -0.64,
+   "hashtagCatTotal": -0.67,
    "fptsPerGame": 22.6
   },
   {
@@ -3219,11 +3219,11 @@
    "stl": 1.4,
    "blk": 0.2,
    "to": 2,
-   "hashtagCatTotal": -0.97,
+   "hashtagCatTotal": -1.04,
    "fptsPerGame": 22.6
   },
   {
-   "rank": 176,
+   "rank": 178,
    "name": "Tre Jones",
    "pos": "PG,SG",
    "gp": 8,
@@ -3239,7 +3239,7 @@
    "stl": 1.1,
    "blk": 0.1,
    "to": 0.9,
-   "hashtagCatTotal": -1.49,
+   "hashtagCatTotal": -1.65,
    "fptsPerGame": 22.5
   },
   {
@@ -3259,11 +3259,11 @@
    "stl": 2.4,
    "blk": 0.1,
    "to": 1.6,
-   "hashtagCatTotal": -1.62,
+   "hashtagCatTotal": -1.68,
    "fptsPerGame": 22.4
   },
   {
-   "rank": 180,
+   "rank": 179,
    "name": "Kyle Kuzma",
    "pos": "SF,PF",
    "gp": 9,
@@ -3279,11 +3279,11 @@
    "stl": 1,
    "blk": 0,
    "to": 1.8,
-   "hashtagCatTotal": -1.6,
+   "hashtagCatTotal": -1.66,
    "fptsPerGame": 22.3
   },
   {
-   "rank": 114,
+   "rank": 112,
    "name": "Isaiah Stewart",
    "pos": "PF,C",
    "gp": 7,
@@ -3299,11 +3299,11 @@
    "stl": 0.3,
    "blk": 0.7,
    "to": 0.9,
-   "hashtagCatTotal": 0.89,
+   "hashtagCatTotal": 0.87,
    "fptsPerGame": 22.1
   },
   {
-   "rank": 145,
+   "rank": 143,
    "name": "Aday Mara",
    "pos": "C",
    "gp": 10,
@@ -3319,7 +3319,7 @@
    "stl": 0.1,
    "blk": 1.9,
    "to": 1.7,
-   "hashtagCatTotal": -0.32,
+   "hashtagCatTotal": -0.34,
    "fptsPerGame": 22
   },
   {
@@ -3339,7 +3339,7 @@
    "stl": 0.4,
    "blk": 1,
    "to": 1,
-   "hashtagCatTotal": -1.83,
+   "hashtagCatTotal": -1.81,
    "fptsPerGame": 22
   },
   {
@@ -3359,11 +3359,11 @@
    "stl": 1.6,
    "blk": 0,
    "to": 1.3,
-   "hashtagCatTotal": -0.96,
+   "hashtagCatTotal": -1.01,
    "fptsPerGame": 21.9
   },
   {
-   "rank": 131,
+   "rank": 129,
    "name": "Zach Edey",
    "pos": "C",
    "gp": 8,
@@ -3379,11 +3379,11 @@
    "stl": 0.1,
    "blk": 1.4,
    "to": 1.3,
-   "hashtagCatTotal": 0.23,
+   "hashtagCatTotal": 0.19,
    "fptsPerGame": 21.7
   },
   {
-   "rank": 148,
+   "rank": 146,
    "name": "Jake LaRavia",
    "pos": "SF,PF",
    "gp": 9,
@@ -3399,7 +3399,7 @@
    "stl": 1.6,
    "blk": 0.9,
    "to": 1.6,
-   "hashtagCatTotal": -0.38,
+   "hashtagCatTotal": -0.43,
    "fptsPerGame": 21.6
   },
   {
@@ -3419,11 +3419,11 @@
    "stl": 0.2,
    "blk": 1.4,
    "to": 1,
-   "hashtagCatTotal": -1.86,
+   "hashtagCatTotal": -1.97,
    "fptsPerGame": 21.5
   },
   {
-   "rank": 173,
+   "rank": 175,
    "name": "Cameron Johnson",
    "pos": "SF,PF",
    "gp": 5,
@@ -3439,11 +3439,11 @@
    "stl": 1,
    "blk": 0,
    "to": 1.4,
-   "hashtagCatTotal": -1.46,
+   "hashtagCatTotal": -1.52,
    "fptsPerGame": 21.2
   },
   {
-   "rank": 126,
+   "rank": 125,
    "name": "Matisse Thybulle",
    "pos": "SG,SF",
    "gp": 10,
@@ -3459,7 +3459,7 @@
    "stl": 1.8,
    "blk": 0.9,
    "to": 1.1,
-   "hashtagCatTotal": 0.36,
+   "hashtagCatTotal": 0.34,
    "fptsPerGame": 21.1
   },
   {
@@ -3479,11 +3479,11 @@
    "stl": 0.8,
    "blk": 0.6,
    "to": 1,
-   "hashtagCatTotal": -1.12,
+   "hashtagCatTotal": -1.14,
    "fptsPerGame": 21
   },
   {
-   "rank": 156,
+   "rank": 154,
    "name": "Khaman Maluach",
    "pos": "C",
    "gp": 8,
@@ -3499,11 +3499,11 @@
    "stl": 0.8,
    "blk": 1,
    "to": 1.5,
-   "hashtagCatTotal": -0.63,
+   "hashtagCatTotal": -0.67,
    "fptsPerGame": 20.8
   },
   {
-   "rank": 160,
+   "rank": 157,
    "name": "Klay Thompson",
    "pos": "SG,SF",
    "gp": 9,
@@ -3519,7 +3519,7 @@
    "stl": 0.1,
    "blk": 0.4,
    "to": 1.2,
-   "hashtagCatTotal": -0.73,
+   "hashtagCatTotal": -0.75,
    "fptsPerGame": 20.8
   },
   {
@@ -3539,11 +3539,11 @@
    "stl": 1,
    "blk": 0.1,
    "to": 1.1,
-   "hashtagCatTotal": -0.84,
+   "hashtagCatTotal": -0.87,
    "fptsPerGame": 20.8
   },
   {
-   "rank": 169,
+   "rank": 170,
    "name": "Sandro Mamukelashvili",
    "pos": "PF,C",
    "gp": 10,
@@ -3559,7 +3559,7 @@
    "stl": 0.8,
    "blk": 0.6,
    "to": 0.7,
-   "hashtagCatTotal": -1.4,
+   "hashtagCatTotal": -1.46,
    "fptsPerGame": 20.6
   },
   {
@@ -3579,7 +3579,7 @@
    "stl": 0.6,
    "blk": 0.4,
    "to": 2.1,
-   "hashtagCatTotal": -1.48,
+   "hashtagCatTotal": -1.51,
    "fptsPerGame": 20.5
   },
   {
@@ -3599,11 +3599,11 @@
    "stl": 1,
    "blk": 0.1,
    "to": 0.7,
-   "hashtagCatTotal": -1.64,
+   "hashtagCatTotal": -1.71,
    "fptsPerGame": 20.3
   },
   {
-   "rank": 188,
+   "rank": 187,
    "name": "Daniss Jenkins",
    "pos": "PG,SG",
    "gp": 8,
@@ -3619,11 +3619,11 @@
    "stl": 0.4,
    "blk": 0.1,
    "to": 1.6,
-   "hashtagCatTotal": -1.91,
+   "hashtagCatTotal": -1.97,
    "fptsPerGame": 20.3
   },
   {
-   "rank": 171,
+   "rank": 173,
    "name": "Jared McCain",
    "pos": "PG,SG",
    "gp": 10,
@@ -3639,11 +3639,11 @@
    "stl": 1,
    "blk": 0.3,
    "to": 1.8,
-   "hashtagCatTotal": -1.45,
+   "hashtagCatTotal": -1.5,
    "fptsPerGame": 20.2
   },
   {
-   "rank": 170,
+   "rank": 169,
    "name": "Leaky Black",
    "pos": "SF,PF",
    "gp": 5,
@@ -3659,7 +3659,7 @@
    "stl": 1.6,
    "blk": 0.2,
    "to": 0,
-   "hashtagCatTotal": -1.42,
+   "hashtagCatTotal": -1.46,
    "fptsPerGame": 20
   },
   {
@@ -3679,11 +3679,11 @@
    "stl": 0.9,
    "blk": 0.4,
    "to": 0.7,
-   "hashtagCatTotal": -2.02,
+   "hashtagCatTotal": -2.08,
    "fptsPerGame": 19.9
   },
   {
-   "rank": 166,
+   "rank": 167,
    "name": "Keaton Wagler",
    "pos": "SG",
    "gp": 8,
@@ -3699,7 +3699,7 @@
    "stl": 0.6,
    "blk": 0.3,
    "to": 2,
-   "hashtagCatTotal": -1.17,
+   "hashtagCatTotal": -1.36,
    "fptsPerGame": 19.8
   },
   {
@@ -3719,11 +3719,11 @@
    "stl": 0.4,
    "blk": 0.9,
    "to": 0.9,
-   "hashtagCatTotal": -1.97,
+   "hashtagCatTotal": -2,
    "fptsPerGame": 19.7
   },
   {
-   "rank": 159,
+   "rank": 160,
    "name": "Kobe Sanders",
    "pos": "SG,SF",
    "gp": 8,
@@ -3739,7 +3739,7 @@
    "stl": 1.1,
    "blk": 0.1,
    "to": 1.5,
-   "hashtagCatTotal": -0.72,
+   "hashtagCatTotal": -0.78,
    "fptsPerGame": 19.6
   },
   {
@@ -3759,11 +3759,11 @@
    "stl": 0.4,
    "blk": 0.9,
    "to": 1.6,
-   "hashtagCatTotal": -2.08,
+   "hashtagCatTotal": -2.14,
    "fptsPerGame": 19.3
   },
   {
-   "rank": 172,
+   "rank": 171,
    "name": "Bilal Coulibaly",
    "pos": "SG,SF",
    "gp": 10,
@@ -3779,11 +3779,11 @@
    "stl": 1.2,
    "blk": 1,
    "to": 0.8,
-   "hashtagCatTotal": -1.45,
+   "hashtagCatTotal": -1.5,
    "fptsPerGame": 19.2
   },
   {
-   "rank": 179,
+   "rank": 180,
    "name": "Brandon Williams",
    "pos": "PG",
    "gp": 9,
@@ -3799,11 +3799,11 @@
    "stl": 1,
    "blk": 0.4,
    "to": 1.7,
-   "hashtagCatTotal": -1.54,
+   "hashtagCatTotal": -1.67,
    "fptsPerGame": 19.2
   },
   {
-   "rank": 198,
+   "rank": 197,
    "name": "Trevon Brazile",
    "pos": "PF",
    "gp": 8,
@@ -3819,7 +3819,7 @@
    "stl": 0.8,
    "blk": 0.5,
    "to": 0.8,
-   "hashtagCatTotal": -2.18,
+   "hashtagCatTotal": -2.24,
    "fptsPerGame": 19
   },
   {
@@ -3839,7 +3839,7 @@
    "stl": 0.5,
    "blk": 0.6,
    "to": 2.8,
-   "hashtagCatTotal": -1.51,
+   "hashtagCatTotal": -1.65,
    "fptsPerGame": 18.8
   },
   {
@@ -3859,7 +3859,7 @@
    "stl": 1,
    "blk": 0.1,
    "to": 0.3,
-   "hashtagCatTotal": -1.93,
+   "hashtagCatTotal": -1.99,
    "fptsPerGame": 18.7
   },
   {
@@ -3879,11 +3879,11 @@
    "stl": 0.9,
    "blk": 0.3,
    "to": 1.6,
-   "hashtagCatTotal": -2.21,
+   "hashtagCatTotal": -2.32,
    "fptsPerGame": 18.6
   },
   {
-   "rank": 197,
+   "rank": 198,
    "name": "DeAndre Jordan",
    "pos": "C",
    "gp": 2,
@@ -3899,27 +3899,7 @@
    "stl": 0,
    "blk": 1,
    "to": 0.5,
-   "hashtagCatTotal": -2.15,
-   "fptsPerGame": 18.5
-  },
-  {
-   "rank": 200,
-   "name": "Dennis Schröder",
-   "pos": "PG,SG",
-   "gp": 9,
-   "mpg": 29.9,
-   "fgm": 3.6,
-   "fga": 9.7,
-   "ftm": 2.3,
-   "fta": 2.7,
-   "tpm": 0.8,
-   "pts": 10.2,
-   "reb": 3.6,
-   "ast": 4.8,
-   "stl": 0.8,
-   "blk": 0.1,
-   "to": 3.2,
-   "hashtagCatTotal": -2.28,
+   "hashtagCatTotal": -2.24,
    "fptsPerGame": 18.5
   },
   {
@@ -3939,7 +3919,7 @@
    "stl": 0.8,
    "blk": 0.1,
    "to": 0.9,
-   "hashtagCatTotal": -1.84,
+   "hashtagCatTotal": -1.93,
    "fptsPerGame": 18.4
   },
   {
@@ -3959,11 +3939,11 @@
    "stl": 2.3,
    "blk": 0,
    "to": 1,
-   "hashtagCatTotal": -2.06,
+   "hashtagCatTotal": -2.1,
    "fptsPerGame": 18.1
   },
   {
-   "rank": 196,
+   "rank": 195,
    "name": "Ryan Dunn",
    "pos": "SF,PF",
    "gp": 8,
@@ -3979,7 +3959,7 @@
    "stl": 0.6,
    "blk": 0.8,
    "to": 0.3,
-   "hashtagCatTotal": -2.13,
+   "hashtagCatTotal": -2.15,
    "fptsPerGame": 17.7
   },
   {
@@ -3999,7 +3979,7 @@
    "stl": 1.1,
    "blk": 0.1,
    "to": 1.9,
-   "hashtagCatTotal": -1.92,
+   "hashtagCatTotal": -1.99,
    "fptsPerGame": 17.5
   },
   {
@@ -4019,11 +3999,11 @@
    "stl": 1,
    "blk": 0.6,
    "to": 1.2,
-   "hashtagCatTotal": -1.64,
+   "hashtagCatTotal": -1.77,
    "fptsPerGame": 17.4
   },
   {
-   "rank": 178,
+   "rank": 176,
    "name": "Charles Bassey",
    "pos": "C",
    "gp": 8,
@@ -4039,11 +4019,11 @@
    "stl": 0.1,
    "blk": 1,
    "to": 0.8,
-   "hashtagCatTotal": -1.51,
+   "hashtagCatTotal": -1.55,
    "fptsPerGame": 16.9
   },
   {
-   "rank": 187,
+   "rank": 188,
    "name": "Jordan Poole",
    "pos": "PG,SG",
    "gp": 4,
@@ -4059,11 +4039,31 @@
    "stl": 1.3,
    "blk": 0.5,
    "to": 0.8,
-   "hashtagCatTotal": -1.89,
+   "hashtagCatTotal": -1.98,
    "fptsPerGame": 16.9
   },
   {
-   "rank": 175,
+   "rank": 200,
+   "name": "Clint Capela",
+   "pos": "C",
+   "gp": 6,
+   "mpg": 14.2,
+   "fgm": 1.5,
+   "fga": 2.3,
+   "ftm": 0.2,
+   "fta": 0.3,
+   "tpm": 0,
+   "pts": 3.2,
+   "reb": 5.2,
+   "ast": 1.7,
+   "stl": 0.8,
+   "blk": 0.7,
+   "to": 0.8,
+   "hashtagCatTotal": -2.33,
+   "fptsPerGame": 16.8
+  },
+  {
+   "rank": 172,
    "name": "Ryan Kalkbrenner",
    "pos": "C",
    "gp": 10,
@@ -4079,7 +4079,7 @@
    "stl": 0.3,
    "blk": 1.1,
    "to": 1.2,
-   "hashtagCatTotal": -1.49,
+   "hashtagCatTotal": -1.5,
    "fptsPerGame": 16
   }
  ]
