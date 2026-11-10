@@ -1,0 +1,48 @@
+name: ESPN data loop
+# Keeps data/ fresh: one long job that pulls every 10 minutes for ~5h45m, then starts itself again.
+# GitHub's own cron is unreliable (hours of delay), so cron here is only a backup restart.
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "23 */5 * * *"
+permissions:
+  contents: write
+  actions: write
+concurrency:
+  group: espn-loop
+  cancel-in-progress: false
+jobs:
+  loop:
+    runs-on: ubuntu-latest
+    timeout-minutes: 358
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Pull data every 10 minutes
+        env:
+          ESPN_S2: ${{ secrets.ESPN_S2 }}
+          SWID: ${{ secrets.SWID }}
+          HASHTAG_COOKIE: ${{ secrets.HASHTAG_COOKIE }}
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name "espn-bot"
+          git config user.email "espn-bot@users.noreply.github.com"
+          START=$(date +%s); LAST_HASHTAG=0
+          while true; do
+            NOW=$(date +%s)
+            if [ "$(date -u +%Y%m%d)" -gt 20270328 ]; then echo "Season over, stopping"; exit 0; fi
+            node fetch-espn.mjs || echo "fetch failed this round"
+            if [ $((NOW - LAST_HASHTAG)) -ge 21600 ]; then node fetch-hashtag.mjs || true; LAST_HASHTAG=$NOW; fi
+            node hashtag-points.mjs || true
+            git add data
+            git commit -qm "ESPN data $(date -u +%Y-%m-%dT%H:%MZ)" || true
+            git pull -q --rebase -X theirs || git rebase --abort || true
+            git push -q || echo "push failed this round"
+            ELAPSED=$(( $(date +%s) - START ))
+            if [ $ELAPSED -ge 20700 ]; then break; fi
+            sleep 600
+          done
+          echo "Starting the next loop"
+          gh workflow run espn-loop.yml
