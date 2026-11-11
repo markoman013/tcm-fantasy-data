@@ -229,7 +229,7 @@ def build_week(wk, prev, status_hint):
     def remaining(plist, valf):
         tot = 0.0
         for p in rem_days:
-            pl, _ = playing_usable(plist, p, after=now if p == CUR else None)
+            pl, _ = playing_usable(plist, p, after=now if p <= CUR else None)
             tot += best_lineup(pl, valf)[0]
         return tot
     open_days = max(len(rem_days), 0)
@@ -473,7 +473,11 @@ def main():
     lead = live['actual']
     summary = (f"Week {wk} vs {live['opp']}: TCM {lead['me']} - {lead['them']}. Projected final: Claude {p['Claude']['me']}-{p['Claude']['them']}, "
                f"Hashtag {p['Hashtag Basketball']['me']}-{p['Hashtag Basketball']['them']}, ESPN {p['ESPN']['me']}-{p['ESPN']['them']}. Win chance {live['winProb']}%.")
-    meta = {'generatedAt': now.isoformat(), 'updatedLabel': upd, 'alert': live['alert'], 'dataAgeMinutes': None if age is None else round(age), 'summary': summary,
+    follow = None
+    if alert and started_days:
+        un2 = [g for g in GAMES[max(started_days)].values() if not game_done(g[0])]
+        if un2: follow = (max(g[0] for g in un2) + dt.timedelta(hours=3, minutes=30)).strftime('%Y-%m-%dT%H:%M:%SZ')
+    meta = {'followUpAt': follow, 'generatedAt': now.isoformat(), 'updatedLabel': upd, 'alert': live['alert'], 'dataAgeMinutes': None if age is None else round(age), 'summary': summary,
             'week': wk, 'adds': live['notes']['tcm'][[i for i, s in enumerate(live['notes']['tcm']) if s.startswith('Adds:')][0]]}
     json.dump(meta, open(D + 'hub_meta.json', 'w'), indent=1)
     print(summary); print('alert:', live['alert'])

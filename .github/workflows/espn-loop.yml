@@ -36,6 +36,7 @@ jobs:
             node fetch-espn.mjs || echo "fetch failed this round"
             if [ $((NOW - LAST_HASHTAG)) -ge 21600 ]; then node fetch-hashtag.mjs || true; LAST_HASHTAG=$NOW; fi
             node hashtag-points.mjs || true
+            python3 build_hub.py || echo "hub build failed this round"
             git add data
             git commit -qm "ESPN data $(date -u +%Y-%m-%dT%H:%MZ)" || true
             git pull -q --rebase -X theirs || git rebase --abort || true

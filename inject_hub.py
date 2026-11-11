@@ -5,6 +5,9 @@ Every other tab and script stays exactly as it is."""
 import re, sys
 live, out = sys.argv[1], sys.argv[2]
 s = open(live, encoding='utf-8').read()
+if s.lstrip().lower().startswith('<!doctype'):          # saved copy of the live page carries the service wrapper: strip it
+    i = s.lower().find('<body>'); s = s[i + 6:] if i >= 0 else s
+    s = re.sub(r'</body>\s*</html>\s*$', '', s)
 new = open('data/hub_matchups.js', encoding='utf-8').read().rstrip('\n')
 pat = re.compile(r'var M_UPDATED = .*?\nvar M_SOURCES = .*?\nvar MATCHUPS = .*?\];[ \t]*(?=\n)', re.S)
 m = pat.search(s)
