@@ -1,10 +1,10 @@
 {
  "followUpAt": "2026-11-13T05:30:00Z",
- "generatedAt": "2026-11-13T00:20:23.718226+00:00",
- "updatedLabel": "Fri Nov 13, 2026, 01:20 CET",
- "alert": "UNFINISHED: DET at WAS, TOR at PHI, DAL at MIN, CHA at PHX not final at 01:20 CET (estimated end 06:00 CET), so Thu 12's scores may be incomplete. Rerun after that.",
+ "generatedAt": "2026-11-13T00:30:27.205002+00:00",
+ "updatedLabel": "Fri Nov 13, 2026, 01:30 CET",
+ "alert": "UNFINISHED: DET at WAS, TOR at PHI, DAL at MIN, CHA at PHX not final at 01:30 CET (estimated end 06:00 CET), so Thu 12's scores may be incomplete. Rerun after that.",
  "dataAgeMinutes": 0,
- "summary": "Week 4 vs KucakAteMango: TCM 642 - 630. Projected final: Claude 1383-1354, Hashtag 1381-1372, ESPN 1389-1392. Win chance 56%.",
+ "summary": "Week 4 vs KucakAteMango: TCM 649 - 653. Projected final: Claude 1390-1377, Hashtag 1388-1395, ESPN 1396-1415. Win chance 48%.",
  "week": 4,
  "adds": "Adds: 2 of 5 used this week (3 left; limit = 5/7 per game day, 7 game days)."
 }
