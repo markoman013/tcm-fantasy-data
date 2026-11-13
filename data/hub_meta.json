@@ -1,9 +1,9 @@
 {
  "followUpAt": null,
- "generatedAt": "2026-11-13T06:03:33.317963+00:00",
- "updatedLabel": "Fri Nov 13, 2026, 07:03 CET",
+ "generatedAt": "2026-11-13T06:10:13.689706+00:00",
+ "updatedLabel": "Fri Nov 13, 2026, 07:10 CET",
  "alert": null,
- "dataAgeMinutes": 0,
+ "dataAgeMinutes": 7,
  "summary": "Week 4 vs KucakAteMango: TCM 722 - 756. Projected final: Claude 1391-1450, Hashtag 1398-1471, ESPN 1401-1491. Win chance 14%.",
  "week": 4,
  "adds": "Adds: 2 of 5 used this week (3 left; limit = 5/7 per game day, 7 game days)."
