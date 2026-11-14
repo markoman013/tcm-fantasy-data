@@ -1,10 +1,10 @@
 {
  "followUpAt": "2026-11-14T07:00:00Z",
- "generatedAt": "2026-11-14T03:10:00.546906+00:00",
- "updatedLabel": "Sat Nov 14, 2026, 04:10 CET",
- "alert": "UNFINISHED: ATL at CHI, CLE at MIA, MEM at NOP, UTA at HOU, GSW at SAS, POR at SAC, OKC at LAC not final at 04:10 CET (estimated end 07:30 CET), so Fri 13's scores may be incomplete. Rerun after that.",
+ "generatedAt": "2026-11-14T03:20:07.532465+00:00",
+ "updatedLabel": "Sat Nov 14, 2026, 04:20 CET",
+ "alert": "UNFINISHED: ATL at CHI, CLE at MIA, MEM at NOP, UTA at HOU, GSW at SAS, POR at SAC, OKC at LAC not final at 04:20 CET (estimated end 07:30 CET), so Fri 13's scores may be incomplete. Rerun after that.",
  "dataAgeMinutes": 0,
- "summary": "Week 4 vs KucakAteMango: TCM 861 - 911. Projected final: Claude 1295-1368, Hashtag 1292-1375, ESPN 1301-1383. Win chance 13%.",
+ "summary": "Week 4 vs KucakAteMango: TCM 864 - 934. Projected final: Claude 1297-1392, Hashtag 1295-1398, ESPN 1304-1406. Win chance 7%.",
  "week": 4,
  "adds": "Adds: 2 of 5 used this week (3 left; limit = 5/7 per game day, 7 game days)."
 }
