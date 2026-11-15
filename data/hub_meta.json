@@ -1,10 +1,10 @@
 {
  "followUpAt": "2026-11-15T04:30:00Z",
- "generatedAt": "2026-11-15T01:26:00.222940+00:00",
- "updatedLabel": "Sun Nov 15, 2026, 02:26 CET",
- "alert": "UNFINISHED: DEN at NOP, DAL at CLE, BKN at MEM, CHI at MIN, DET at MIA not final at 02:26 CET (estimated end 05:00 CET), so Sat 14's scores may be incomplete. Rerun after that.",
+ "generatedAt": "2026-11-15T01:36:06.029314+00:00",
+ "updatedLabel": "Sun Nov 15, 2026, 02:36 CET",
+ "alert": "UNFINISHED: DEN at NOP, DAL at CLE, BKN at MEM, CHI at MIN, DET at MIA not final at 02:36 CET (estimated end 05:00 CET), so Sat 14's scores may be incomplete. Rerun after that.",
  "dataAgeMinutes": 0,
- "summary": "Week 4 vs KucakAteMango: TCM 920 - 1019. Projected final: Claude 1172-1311, Hashtag 1166-1315, ESPN 1169-1320. Win chance 1%.",
+ "summary": "Week 4 vs KucakAteMango: TCM 922 - 1019. Projected final: Claude 1174-1311, Hashtag 1168-1315, ESPN 1171-1320. Win chance 1%.",
  "week": 4,
  "adds": "Adds: 2 of 5 used this week (3 left; limit = 5/7 per game day, 7 game days)."
 }
