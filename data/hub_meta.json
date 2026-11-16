@@ -1,10 +1,10 @@
 {
  "followUpAt": "2026-11-16T05:30:00Z",
- "generatedAt": "2026-11-16T00:41:43.230524+00:00",
- "updatedLabel": "Mon Nov 16, 2026, 01:41 CET",
- "alert": "UNFINISHED: SAS at UTA, DAL at BOS, NYK at TOR, HOU at WAS, ATL at MIL, OKC at SAC not final at 01:41 CET (estimated end 06:00 CET), so Sun 15's scores may be incomplete. Rerun after that.",
+ "generatedAt": "2026-11-16T00:51:49.892976+00:00",
+ "updatedLabel": "Mon Nov 16, 2026, 01:51 CET",
+ "alert": "UNFINISHED: SAS at UTA, DAL at BOS, NYK at TOR, HOU at WAS, ATL at MIL, OKC at SAC not final at 01:51 CET (estimated end 06:00 CET), so Sun 15's scores may be incomplete. Rerun after that.",
  "dataAgeMinutes": 0,
- "summary": "Week 4 vs KucakAteMango: TCM 1079 - 1179. Projected final: Claude 1124-1256, Hashtag 1117-1252, ESPN 1109-1260. Win chance 0%.",
+ "summary": "Week 4 vs KucakAteMango: TCM 1101 - 1194. Projected final: Claude 1146-1271, Hashtag 1139-1267, ESPN 1131-1275. Win chance 0%.",
  "week": 4,
  "adds": "Adds: 2 of 5 used this week (3 left; limit = 5/7 per game day, 7 game days)."
 }
