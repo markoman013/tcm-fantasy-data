@@ -97,7 +97,7 @@ def info(entry, slot_override=None):
     if base_hb is None: base_hb = 0.0
     claude = 0.96 * (0.7 * base_hb + 0.3 * (seas if seas is not None else base_hb))
     slot = entry.get('lineupSlotId', 12) if slot_override is None else slot_override
-    inj = entry.get('injuryStatus') or pl.get('injuryStatus') or 'ACTIVE'
+    inj = pl.get('injuryStatus') if pl.get('injuryStatus') not in (None,'ACTIVE','NORMAL') else (entry.get('injuryStatus') or pl.get('injuryStatus') or 'ACTIVE')
     return dict(id=pl['id'], full=name, team=ABBR.get(pl.get('proTeamId'), '?'), elig=set(pl.get('eligibleSlots', [])),
                 slot=slot, inj=inj, hb=base_hb, hb_raw=hb, esp=esp if esp is not None else base_hb, seas=seas, claude=claude,
                 out=(slot == 13 or inj == 'OUT'))
