@@ -1,8 +1,8 @@
 {
  "followUpAt": "2026-11-17T05:30:00Z",
- "generatedAt": "2026-11-17T03:59:41.956804+00:00",
- "updatedLabel": "Tue Nov 17, 2026, 04:59 CET",
- "alert": "UNFINISHED: GSW at NOP, POR at MIN, PHX at DEN not final at 04:59 CET (estimated end 06:00 CET), so Mon 16's scores may be incomplete. Rerun after that.",
+ "generatedAt": "2026-11-17T04:09:45.980687+00:00",
+ "updatedLabel": "Tue Nov 17, 2026, 05:09 CET",
+ "alert": "UNFINISHED: PHX at DEN not final at 05:09 CET (estimated end 06:00 CET), so Mon 16's scores may be incomplete. Rerun after that.",
  "dataAgeMinutes": 0,
  "summary": "Week 5 vs The last place guys: TCM 171 - 342. Projected final: Claude 1269-1589, Hashtag 1284-1613, ESPN 1194-1697. Win chance 0%.",
  "week": 5,
