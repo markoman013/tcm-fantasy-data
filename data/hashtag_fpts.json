@@ -1,5 +1,5 @@
 {
- "computedAt": "2026-11-18T05:13:30.493Z",
+ "computedAt": "2026-11-18T05:23:34.639Z",
  "scoring": "FGM2 FGA-1 FTM1 FTA-1 3PM1 REB1 AST2 STL4 BLK4 TO-2 PTS1",
  "players": [
   {
@@ -443,26 +443,6 @@
    "fptsPerGame": 43.6
   },
   {
-   "rank": 20,
-   "name": "2",
-   "pos": "PF/C",
-   "gp": 74,
-   "mpg": 34.4,
-   "fgm": 7.8,
-   "fga": 15,
-   "ftm": 3.7,
-   "fta": 4.8,
-   "tpm": 1,
-   "pts": 20.3,
-   "reb": 9.5,
-   "ast": 3.7,
-   "stl": 1.6,
-   "blk": 0.7,
-   "to": 1.8,
-   "hashtagCatTotal": 6.25,
-   "fptsPerGame": 43.3
-  },
-  {
    "rank": 22,
    "name": "Donovan Mitchell",
    "pos": "PG,SG",
@@ -541,6 +521,26 @@
    "to": 1.7,
    "hashtagCatTotal": 7.07,
    "fptsPerGame": 41.5
+  },
+  {
+   "rank": 20,
+   "name": "2",
+   "pos": "C",
+   "gp": 73,
+   "mpg": 31.3,
+   "fgm": 7.2,
+   "fga": 14.1,
+   "ftm": 4.2,
+   "fta": 5.2,
+   "tpm": 1.6,
+   "pts": 20.3,
+   "reb": 12.2,
+   "ast": 3.4,
+   "stl": 0.9,
+   "blk": 0.6,
+   "to": 2.4,
+   "hashtagCatTotal": 6.25,
+   "fptsPerGame": 41.4
   },
   {
    "rank": 45,
