@@ -1,10 +1,10 @@
 {
- "followUpAt": null,
- "generatedAt": "2026-11-18T00:20:17.375002+00:00",
- "updatedLabel": "Wed Nov 18, 2026, 01:20 CET",
- "alert": null,
+ "followUpAt": "2026-11-18T07:30:00Z",
+ "generatedAt": "2026-11-18T00:30:21.455350+00:00",
+ "updatedLabel": "Wed Nov 18, 2026, 01:30 CET",
+ "alert": "UNFINISHED: NYK at TOR, DET at SAS, POR at MIN, UTA at LAC, CHA at LAL not final at 01:30 CET (estimated end 08:00 CET), so Tue 17's scores may be incomplete. Rerun after that.",
  "dataAgeMinutes": 0,
- "summary": "Week 5 vs The last place guys: TCM 171 - 352. Projected final: Claude 1269-1600, Hashtag 1284-1623, ESPN 1194-1707. Win chance 0%.",
+ "summary": "Week 5 vs The last place guys: TCM 171 - 352. Projected final: Claude 1193-1573, Hashtag 1204-1594, ESPN 1118-1674. Win chance 0%.",
  "week": 5,
  "adds": "Adds: 1 of 5 used this week (4 left; limit = 5/7 per game day, 7 game days)."
 }
