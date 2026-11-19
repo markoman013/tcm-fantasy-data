@@ -1,10 +1,10 @@
 {
  "followUpAt": "2026-11-19T06:30:00Z",
- "generatedAt": "2026-11-19T05:04:56.293964+00:00",
- "updatedLabel": "Thu Nov 19, 2026, 06:04 CET",
- "alert": "UNFINISHED: BOS at DEN, PHX at SAC, UTA at LAL not final at 06:04 CET (estimated end 07:00 CET), so Wed 18's scores may be incomplete. Rerun after that.",
+ "generatedAt": "2026-11-19T05:15:00.036009+00:00",
+ "updatedLabel": "Thu Nov 19, 2026, 06:15 CET",
+ "alert": "UNFINISHED: BOS at DEN, PHX at SAC, UTA at LAL not final at 06:15 CET (estimated end 07:00 CET), so Wed 18's scores may be incomplete. Rerun after that.",
  "dataAgeMinutes": 0,
- "summary": "Week 5 vs The last place guys: TCM 598 - 790. Projected final: Claude 1228-1624, Hashtag 1220-1630, ESPN 1166-1687. Win chance 0%.",
+ "summary": "Week 5 vs The last place guys: TCM 601 - 799. Projected final: Claude 1231-1633, Hashtag 1223-1639, ESPN 1169-1696. Win chance 0%.",
  "week": 5,
  "adds": "Adds: 1 of 5 used this week (4 left; limit = 5/7 per game day, 7 game days)."
 }
