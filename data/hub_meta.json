@@ -1,8 +1,8 @@
 {
  "followUpAt": "2026-11-19T06:30:00Z",
- "generatedAt": "2026-11-19T05:35:07.959570+00:00",
- "updatedLabel": "Thu Nov 19, 2026, 06:35 CET",
- "alert": "UNFINISHED: PHX at SAC, UTA at LAL not final at 06:35 CET (estimated end 07:00 CET), so Wed 18's scores may be incomplete. Rerun after that.",
+ "generatedAt": "2026-11-19T05:45:11.719928+00:00",
+ "updatedLabel": "Thu Nov 19, 2026, 06:45 CET",
+ "alert": "UNFINISHED: PHX at SAC, UTA at LAL not final at 06:45 CET (estimated end 07:00 CET), so Wed 18's scores may be incomplete. Rerun after that.",
  "dataAgeMinutes": 0,
  "summary": "Week 5 vs The last place guys: TCM 603 - 799. Projected final: Claude 1233-1633, Hashtag 1225-1639, ESPN 1171-1696. Win chance 0%.",
  "week": 5,
