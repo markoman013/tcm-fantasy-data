@@ -1,10 +1,10 @@
 {
  "followUpAt": "2026-11-22T06:30:00Z",
- "generatedAt": "2026-11-21T19:24:12.330774+00:00",
- "updatedLabel": "Sat Nov 21, 2026, 20:24 CET",
- "alert": "UNFINISHED: MIL at PHI, POR at NYK, LAC at DAL, MEM at MIN, NOP at SAS, BOS at SAC not final at 20:24 CET (estimated end 07:00 CET), so Sat 21's scores may be incomplete. Rerun after that.",
+ "generatedAt": "2026-11-21T19:34:17.084152+00:00",
+ "updatedLabel": "Sat Nov 21, 2026, 20:34 CET",
+ "alert": "UNFINISHED: MIL at PHI, POR at NYK, LAC at DAL, MEM at MIN, NOP at SAS, BOS at SAC not final at 20:34 CET (estimated end 07:00 CET), so Sat 21's scores may be incomplete. Rerun after that.",
  "dataAgeMinutes": 0,
- "summary": "Week 5 vs The last place guys: TCM 916 - 1171. Projected final: Claude 1261-1548, Hashtag 1264-1556, ESPN 1238-1576. Win chance 0%.",
+ "summary": "Week 5 vs The last place guys: TCM 916 - 1180. Projected final: Claude 1261-1557, Hashtag 1264-1565, ESPN 1238-1585. Win chance 0%.",
  "week": 5,
  "adds": "Adds: 2 of 5 used this week (3 left; limit = 5/7 per game day, 7 game days)."
 }
