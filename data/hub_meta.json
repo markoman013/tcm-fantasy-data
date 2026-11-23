@@ -1,10 +1,10 @@
 {
- "followUpAt": "2026-11-23T05:00:00Z",
- "generatedAt": "2026-11-23T04:22:56.160422+00:00",
- "updatedLabel": "Mon Nov 23, 2026, 05:22 CET",
- "alert": "UNFINISHED: BOS at GSW not final at 05:22 CET (estimated end 05:30 CET), so Sun 22's scores may be incomplete. Rerun after that.",
+ "followUpAt": null,
+ "generatedAt": "2026-11-23T04:33:00.163899+00:00",
+ "updatedLabel": "Mon Nov 23, 2026, 05:33 CET",
+ "alert": null,
  "dataAgeMinutes": 0,
- "summary": "Week 5 vs The last place guys: TCM 1203 - 1587. Projected final: Claude 1211-1595, Hashtag 1203-1587, ESPN 1203-1587. Win chance 0%.",
+ "summary": "Week 5 vs The last place guys: TCM 1203 - 1587. Projected final: Claude 1203-1587, Hashtag 1203-1587, ESPN 1203-1587. Win chance 0%.",
  "week": 5,
  "adds": "Adds: 2 of 5 used this week (3 left; limit = 5/7 per game day, 7 game days)."
 }
