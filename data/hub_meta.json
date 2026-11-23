@@ -1,10 +1,10 @@
 {
  "followUpAt": "2026-11-23T05:00:00Z",
- "generatedAt": "2026-11-23T01:11:15.746306+00:00",
- "updatedLabel": "Mon Nov 23, 2026, 02:11 CET",
- "alert": "UNFINISHED: OKC at MIA, DAL at UTA, DEN at CHI, ORL at WAS, IND at NYK, BOS at GSW not final at 02:11 CET (estimated end 05:30 CET), so Sun 22's scores may be incomplete. Rerun after that.",
+ "generatedAt": "2026-11-23T01:21:20.248435+00:00",
+ "updatedLabel": "Mon Nov 23, 2026, 02:21 CET",
+ "alert": "UNFINISHED: OKC at MIA, DAL at UTA, DEN at CHI, ORL at WAS, IND at NYK, BOS at GSW not final at 02:21 CET (estimated end 05:30 CET), so Sun 22's scores may be incomplete. Rerun after that.",
  "dataAgeMinutes": 0,
- "summary": "Week 5 vs The last place guys: TCM 1099 - 1434. Projected final: Claude 1107-1537, Hashtag 1099-1537, ESPN 1099-1532. Win chance 0%.",
+ "summary": "Week 5 vs The last place guys: TCM 1107 - 1438. Projected final: Claude 1115-1541, Hashtag 1107-1541, ESPN 1107-1536. Win chance 0%.",
  "week": 5,
  "adds": "Adds: 2 of 5 used this week (3 left; limit = 5/7 per game day, 7 game days)."
 }
