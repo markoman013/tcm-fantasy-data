@@ -1,10 +1,10 @@
 {
  "followUpAt": "2026-11-24T06:30:00Z",
- "generatedAt": "2026-11-24T02:24:05.800075+00:00",
- "updatedLabel": "Tue Nov 24, 2026, 03:24 CET",
- "alert": "UNFINISHED: MEM at CHA, POR at PHI, BKN at MIN, MIL at TOR, OKC at IND, CLE at CHI, PHX at NOP, LAC at HOU, SAS at SAC, UTA at LAL not final at 03:24 CET (estimated end 07:00 CET), so Mon 23's scores may be incomplete. Rerun after that.",
+ "generatedAt": "2026-11-24T02:34:09.703516+00:00",
+ "updatedLabel": "Tue Nov 24, 2026, 03:34 CET",
+ "alert": "UNFINISHED: MEM at CHA, POR at PHI, BKN at MIN, MIL at TOR, OKC at IND, CLE at CHI, PHX at NOP, LAC at HOU, SAS at SAC, UTA at LAL not final at 03:34 CET (estimated end 07:00 CET), so Mon 23's scores may be incomplete. Rerun after that.",
  "dataAgeMinutes": 0,
- "summary": "Week 6 vs Venom of V: TCM 128 - 147. Projected final: Claude 1132-1204, Hashtag 1145-1208, ESPN 1069-1260. Win chance 13%.",
+ "summary": "Week 6 vs Venom of V: TCM 135 - 149. Projected final: Claude 1139-1206, Hashtag 1152-1210, ESPN 1076-1262. Win chance 14%.",
  "week": 6,
  "adds": "Adds: 0 of 4 used this week (4 left; limit = 5/7 per game day, 6 game days)."
 }
