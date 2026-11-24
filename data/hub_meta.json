@@ -1,10 +1,10 @@
 {
- "followUpAt": "2026-11-24T06:30:00Z",
- "generatedAt": "2026-11-24T05:55:32.287090+00:00",
- "updatedLabel": "Tue Nov 24, 2026, 06:55 CET",
- "alert": "UNFINISHED: SAS at SAC, UTA at LAL not final at 06:55 CET (estimated end 07:00 CET), so Mon 23's scores may be incomplete. Rerun after that.",
+ "followUpAt": null,
+ "generatedAt": "2026-11-24T06:05:36.288553+00:00",
+ "updatedLabel": "Tue Nov 24, 2026, 07:05 CET",
+ "alert": null,
  "dataAgeMinutes": 0,
- "summary": "Week 6 vs Venom of V: TCM 244 - 273. Projected final: Claude 1175-1303, Hashtag 1183-1303, ESPN 1116-1349. Win chance 5%.",
+ "summary": "Week 6 vs Venom of V: TCM 244 - 273. Projected final: Claude 1167-1295, Hashtag 1183-1303, ESPN 1116-1349. Win chance 3%.",
  "week": 6,
  "adds": "Adds: 0 of 4 used this week (4 left; limit = 5/7 per game day, 6 game days)."
 }
