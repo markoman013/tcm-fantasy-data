@@ -1,5 +1,5 @@
 {
- "computedAt": "2026-11-25T12:20:13.253Z",
+ "computedAt": "2026-11-25T12:30:17.277Z",
  "scoring": "FGM2 FGA-1 FTM1 FTA-1 3PM1 REB1 AST2 STL4 BLK4 TO-2 PTS1",
  "players": [
   {
@@ -121,6 +121,26 @@
    "to": 3.5,
    "hashtagCatTotal": 9.48,
    "fptsPerGame": 51.6
+  },
+  {
+   "rank": 5,
+   "name": "1",
+   "pos": "PG",
+   "gp": 71,
+   "mpg": 33.5,
+   "fgm": 10.8,
+   "fga": 22.6,
+   "ftm": 7.1,
+   "fta": 8.2,
+   "tpm": 1.9,
+   "pts": 30.4,
+   "reb": 4.5,
+   "ast": 6,
+   "stl": 1.1,
+   "blk": 0.9,
+   "to": 2.2,
+   "hashtagCatTotal": 8.25,
+   "fptsPerGame": 50.3
   },
   {
    "rank": 5,
@@ -263,26 +283,6 @@
    "fptsPerGame": 46.8
   },
   {
-   "rank": 5,
-   "name": "1",
-   "pos": "PG/SG",
-   "gp": 70,
-   "mpg": 36.1,
-   "fgm": 8.8,
-   "fga": 19,
-   "ftm": 5.6,
-   "fta": 6.5,
-   "tpm": 2.8,
-   "pts": 26.1,
-   "reb": 3.4,
-   "ast": 5.8,
-   "stl": 1.8,
-   "blk": 0.6,
-   "to": 2.2,
-   "hashtagCatTotal": 8.37,
-   "fptsPerGame": 46.8
-  },
-  {
    "rank": 31,
    "name": "Scottie Barnes",
    "pos": "SF,PF,C",
@@ -379,7 +379,7 @@
    "stl": 1,
    "blk": 0.4,
    "to": 2.9,
-   "hashtagCatTotal": 7.5,
+   "hashtagCatTotal": 7.4,
    "fptsPerGame": 44.9
   },
   {
@@ -459,7 +459,7 @@
    "stl": 1.6,
    "blk": 0.7,
    "to": 1.8,
-   "hashtagCatTotal": 6.06,
+   "hashtagCatTotal": 5.95,
    "fptsPerGame": 43.3
   },
   {
