@@ -1,5 +1,5 @@
 {
- "computedAt": "2026-11-25T21:24:47.589Z",
+ "computedAt": "2026-11-25T21:34:52.377Z",
  "scoring": "FGM2 FGA-1 FTM1 FTA-1 3PM1 REB1 AST2 STL4 BLK4 TO-2 PTS1",
  "players": [
   {
@@ -59,7 +59,7 @@
    "stl": 1.5,
    "blk": 0.9,
    "to": 3.4,
-   "hashtagCatTotal": 13.27,
+   "hashtagCatTotal": 13.28,
    "fptsPerGame": 58
   },
   {
@@ -259,7 +259,7 @@
    "stl": 1.1,
    "blk": 0.7,
    "to": 2.9,
-   "hashtagCatTotal": 8.71,
+   "hashtagCatTotal": 8.72,
    "fptsPerGame": 47.2
   },
   {
@@ -299,7 +299,7 @@
    "stl": 1.8,
    "blk": 1.1,
    "to": 3,
-   "hashtagCatTotal": 5.41,
+   "hashtagCatTotal": 5.4,
    "fptsPerGame": 46.3
   },
   {
@@ -419,7 +419,7 @@
    "stl": 0.9,
    "blk": 0.1,
    "to": 1.7,
-   "hashtagCatTotal": 11.38,
+   "hashtagCatTotal": 11.39,
    "fptsPerGame": 44.1
   },
   {
@@ -619,7 +619,7 @@
    "stl": 1.2,
    "blk": 0.3,
    "to": 2.3,
-   "hashtagCatTotal": 6.38,
+   "hashtagCatTotal": 6.39,
    "fptsPerGame": 39.8
   },
   {
@@ -659,7 +659,7 @@
    "stl": 1.1,
    "blk": 2.1,
    "to": 1.6,
-   "hashtagCatTotal": 5.96,
+   "hashtagCatTotal": 5.97,
    "fptsPerGame": 39.2
   },
   {
@@ -703,7 +703,7 @@
    "fptsPerGame": 38.9
   },
   {
-   "rank": 43,
+   "rank": 44,
    "name": "Dyson Daniels",
    "pos": "SG,SF",
    "gp": 17,
@@ -1039,7 +1039,7 @@
    "stl": 1.3,
    "blk": 0.1,
    "to": 2.8,
-   "hashtagCatTotal": 3.46,
+   "hashtagCatTotal": 3.45,
    "fptsPerGame": 35.4
   },
   {
@@ -1059,7 +1059,7 @@
    "stl": 0.4,
    "blk": 0.9,
    "to": 2.8,
-   "hashtagCatTotal": 5.86,
+   "hashtagCatTotal": 5.87,
    "fptsPerGame": 35.3
   },
   {
@@ -1199,7 +1199,7 @@
    "stl": 0.7,
    "blk": 3,
    "to": 1.7,
-   "hashtagCatTotal": 7.97,
+   "hashtagCatTotal": 7.98,
    "fptsPerGame": 34.4
   },
   {
@@ -1323,7 +1323,7 @@
    "fptsPerGame": 33.7
   },
   {
-   "rank": 44,
+   "rank": 43,
    "name": "Ayo Dosunmu",
    "pos": "PG,SG",
    "gp": 18,
@@ -1343,7 +1343,7 @@
    "fptsPerGame": 33.6
   },
   {
-   "rank": 67,
+   "rank": 68,
    "name": "LaMelo Ball",
    "pos": "PG",
    "gp": 18,
@@ -1379,7 +1379,7 @@
    "stl": 1.8,
    "blk": 0.9,
    "to": 3.3,
-   "hashtagCatTotal": 2.8,
+   "hashtagCatTotal": 2.79,
    "fptsPerGame": 33.6
   },
   {
@@ -1403,7 +1403,7 @@
    "fptsPerGame": 33.6
   },
   {
-   "rank": 104,
+   "rank": 105,
    "name": "Immanuel Quickley",
    "pos": "PG,SG",
    "gp": 15,
@@ -1439,7 +1439,7 @@
    "stl": 1.3,
    "blk": 0.4,
    "to": 2.1,
-   "hashtagCatTotal": 4.1,
+   "hashtagCatTotal": 4.09,
    "fptsPerGame": 33.3
   },
   {
@@ -1499,7 +1499,7 @@
    "stl": 1.8,
    "blk": 0.9,
    "to": 2.7,
-   "hashtagCatTotal": 2.6,
+   "hashtagCatTotal": 2.59,
    "fptsPerGame": 32.9
   },
   {
@@ -1599,7 +1599,7 @@
    "stl": 1.1,
    "blk": 0.3,
    "to": 1.3,
-   "hashtagCatTotal": 1.73,
+   "hashtagCatTotal": 1.72,
    "fptsPerGame": 31.9
   },
   {
@@ -1659,7 +1659,7 @@
    "stl": 1,
    "blk": 1,
    "to": 1,
-   "hashtagCatTotal": 3.72,
+   "hashtagCatTotal": 3.73,
    "fptsPerGame": 31.5
   },
   {
@@ -1803,7 +1803,7 @@
    "fptsPerGame": 30.4
   },
   {
-   "rank": 68,
+   "rank": 67,
    "name": "Dejounte Murray",
    "pos": "PG,SG",
    "gp": 9,
@@ -1939,7 +1939,7 @@
    "stl": 1.3,
    "blk": 0.2,
    "to": 2,
-   "hashtagCatTotal": 0.49,
+   "hashtagCatTotal": 0.48,
    "fptsPerGame": 29.5
   },
   {
@@ -1959,7 +1959,7 @@
    "stl": 1.3,
    "blk": 0.4,
    "to": 2.5,
-   "hashtagCatTotal": 2.21,
+   "hashtagCatTotal": 2.22,
    "fptsPerGame": 29.4
   },
   {
@@ -2199,7 +2199,7 @@
    "stl": 1.1,
    "blk": 0.6,
    "to": 1.6,
-   "hashtagCatTotal": 1.05,
+   "hashtagCatTotal": 1.04,
    "fptsPerGame": 28.5
   },
   {
@@ -2243,7 +2243,7 @@
    "fptsPerGame": 27.8
   },
   {
-   "rank": 105,
+   "rank": 104,
    "name": "CJ McCollum",
    "pos": "PG,SG",
    "gp": 14,
@@ -2279,7 +2279,7 @@
    "stl": 0.6,
    "blk": 2.3,
    "to": 2,
-   "hashtagCatTotal": 2.81,
+   "hashtagCatTotal": 2.82,
    "fptsPerGame": 27.4
   },
   {
@@ -2779,7 +2779,7 @@
    "stl": 2.3,
    "blk": 1,
    "to": 1.1,
-   "hashtagCatTotal": 2.11,
+   "hashtagCatTotal": 2.1,
    "fptsPerGame": 24.4
   },
   {
@@ -3139,7 +3139,7 @@
    "stl": 1.5,
    "blk": 0.1,
    "to": 1.7,
-   "hashtagCatTotal": -1.6,
+   "hashtagCatTotal": -1.61,
    "fptsPerGame": 23.1
   },
   {
@@ -3359,7 +3359,7 @@
    "stl": 0.5,
    "blk": 0.9,
    "to": 1.1,
-   "hashtagCatTotal": 0.1,
+   "hashtagCatTotal": 0.11,
    "fptsPerGame": 22.3
   },
   {
@@ -3799,7 +3799,7 @@
    "stl": 0.2,
    "blk": 0.9,
    "to": 1,
-   "hashtagCatTotal": -0.47,
+   "hashtagCatTotal": -0.46,
    "fptsPerGame": 19.9
   },
   {
@@ -3939,7 +3939,7 @@
    "stl": 0.4,
    "blk": 0.9,
    "to": 1.2,
-   "hashtagCatTotal": -1.12,
+   "hashtagCatTotal": -1.11,
    "fptsPerGame": 19.1
   },
   {
@@ -4019,7 +4019,7 @@
    "stl": 2.3,
    "blk": 0,
    "to": 1,
-   "hashtagCatTotal": -1.94,
+   "hashtagCatTotal": -1.95,
    "fptsPerGame": 18.1
   },
   {
@@ -4059,7 +4059,7 @@
    "stl": 0.4,
    "blk": 1.1,
    "to": 1.1,
-   "hashtagCatTotal": -1.17,
+   "hashtagCatTotal": -1.16,
    "fptsPerGame": 16.7
   },
   {
