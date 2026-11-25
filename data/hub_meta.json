@@ -1,10 +1,10 @@
 {
  "followUpAt": "2026-11-25T06:30:00Z",
- "generatedAt": "2026-11-25T02:56:00.421911+00:00",
- "updatedLabel": "Wed Nov 25, 2026, 03:56 CET",
- "alert": "UNFINISHED: DET at ORL, BOS at WAS, DAL at DEN not final at 03:56 CET (estimated end 07:00 CET), so Tue 24's scores may be incomplete. Rerun after that.",
+ "generatedAt": "2026-11-25T03:06:04.848167+00:00",
+ "updatedLabel": "Wed Nov 25, 2026, 04:06 CET",
+ "alert": "UNFINISHED: BOS at WAS, DAL at DEN not final at 04:06 CET (estimated end 07:00 CET), so Tue 24's scores may be incomplete. Rerun after that.",
  "dataAgeMinutes": 0,
- "summary": "Week 6 vs Venom of V: TCM 293 - 345. Projected final: Claude 1123-1487, Hashtag 1133-1490, ESPN 1085-1536. Win chance 0%.",
+ "summary": "Week 6 vs Venom of V: TCM 293 - 345. Projected final: Claude 1079-1462, Hashtag 1088-1463, ESPN 1039-1513. Win chance 0%.",
  "week": 6,
  "adds": "Adds: 0 of 4 used this week (4 left; limit = 5/7 per game day, 6 game days)."
 }
