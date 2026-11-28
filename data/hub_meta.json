@@ -1,8 +1,8 @@
 {
- "followUpAt": null,
- "generatedAt": "2026-11-27T23:50:22.312444+00:00",
- "updatedLabel": "Sat Nov 28, 2026, 00:50 CET",
- "alert": null,
+ "followUpAt": "2026-11-28T06:00:00Z",
+ "generatedAt": "2026-11-28T00:00:26.705292+00:00",
+ "updatedLabel": "Sat Nov 28, 2026, 01:00 CET",
+ "alert": "UNFINISHED: MIA at NYK, BKN at TOR, MIL at DET, PHI at IND, ATL at BOS, MEM at MIN, DAL at PHX, DEN at UTA, GSW at POR, LAL at SAS, NOP at LAC not final at 01:00 CET (estimated end 06:30 CET), so Fri 27's scores may be incomplete. Rerun after that.",
  "dataAgeMinutes": 0,
  "summary": "Week 6 vs Venom of V: TCM 440 - 727. Projected final: Claude 1147-1482, Hashtag 1169-1488, ESPN 1159-1520. Win chance 0%.",
  "week": 6,
